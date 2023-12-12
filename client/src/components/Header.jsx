@@ -11,19 +11,13 @@ export default function Header() {
         </Link>
         <ul className="flex gap-4">
           <Link to="/about">
-            <li className="text-blue-600 hover:underline text-sm sm:text-lg">
-              About us
-            </li>
+            <li className="text-blue-600 text-sm sm:text-lg">About us</li>
           </Link>
           <Link to="/product">
-            <li className="text-blue-600 hover:underline text-sm sm:text-lg">
-              Our Product
-            </li>
+            <li className="text-blue-600 text-sm sm:text-lg">Our Product</li>
           </Link>
           <Link to="/contact-us">
-            <li className="text-blue-600 hover:underline text-sm sm:text-lg">
-              Contact us
-            </li>
+            <li className="text-blue-600 text-sm sm:text-lg">Contact us</li>
           </Link>
         </ul>
       </div>
