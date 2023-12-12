@@ -1,26 +1,33 @@
 import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Header() {
   return (
-    <header className="bg-blue-200 shadow-md">
-      <div className="flex justify-between items-center max-w-6xl max-auto p-6">
+    <header className="bg-black shadow-md">
+      <link
+        href="src/assets/Header.css"
+        type="text/css"
+        rel="stylesheet"
+      ></link>
+      <div className="flex justify-between items-center max-w-7xl max-auto p-8">
         <Link to="/">
           <h1 className="font-bold text-sm sm:text-lg flex flex-wrap">
-            <span className="text-blue-600">Kingarments</span>
+            <span className="text-white">Kingarments</span>
           </h1>
         </Link>
-        <ul className="flex gap-4">
+        <ul className="flex gap-6">
           <Link to="/about">
-            <li className="text-blue-600 text-sm sm:text-lg">About us</li>
+            <li className="text-white text-sm sm:text-lg">About us</li>
           </Link>
           <Link to="/product">
-            <li className="text-blue-600 text-sm sm:text-lg">Our Product</li>
+            <li className="text-white text-sm sm:text-lg">Our Product</li>
           </Link>
           <Link to="/contact-us">
-            <li className="text-blue-600 text-sm sm:text-lg">Contact us</li>
+            <li className="text-white text-sm sm:text-lg">Contact us</li>
           </Link>
         </ul>
       </div>
+      <div class="page-bg"></div>
     </header>
   );
 }
