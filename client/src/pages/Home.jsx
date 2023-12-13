@@ -1,4 +1,4 @@
-import React from "react";
+import Section from "../components/section";
 
 export default function Home() {
   return (
@@ -29,6 +29,7 @@ export default function Home() {
           <p className="text-white">Gary</p>
         </div>
       </div>
+      <Section />
     </main>
   );
 }
