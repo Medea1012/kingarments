@@ -6,6 +6,7 @@
 - `git pull`
 - `git checkout -b medea/[feature name]`
 - start development
+- `git checkout main + git merge new branch name`
 - `git add` + `git commit` + `git push`
 - go to github, start a pull request through UI
 - Start the review process
