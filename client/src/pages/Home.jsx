@@ -1,4 +1,3 @@
-import clothingList from "../components/ClothingList";
 export default function Home() {
   return (
     <main>
@@ -28,7 +27,6 @@ export default function Home() {
           <p className="text-white">Gary</p>
         </div>
       </div>
-      <clothingList />
     </main>
   );
 }
