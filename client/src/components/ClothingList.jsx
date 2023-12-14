@@ -1,4 +1,4 @@
-export default function Section() {
+export default function clothingList() {
   return (
     <div>
       <section class="home-top-deals-3 bg-a-p-light text-a-p-dark" id="top">
