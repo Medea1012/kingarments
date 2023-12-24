@@ -19,33 +19,7 @@ li:hover {
 li {
   font-family: "Cabin", sans-serif;
 }
-/* 
-.page-bg {
-  background-image: url("https://hagor.co.il/wp-content/uploads/2023/12/together7-2-scaled.jpg");
-  width: 80%;
-  min-width: 30rem;
-  height: 40rem;
-  margin: 0 auto;
-  margin-top: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-/* 
-main {
-  font-family: "Outfit", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  justify-content: space-between;
-} */
 
-/* .rounded {
-  border-radius: 0.25rem !important;
-} */
-
-/* body {
-  font-family: "Outfit", sans-serif;
-  background-color: white;
-} */
+.backpack {
+  background-image: url("https://www.munibags.com/uploads/202338313/ImgScroll/ba6d8cd78e-665f-4b7f-b8ef-250d4b499a9f.jpg?size=750x0");
+}
