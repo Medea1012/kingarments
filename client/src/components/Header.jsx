@@ -4,11 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function Header() {
   return (
     <header className="bg-black shadow-md">
-      <link
-        href="src/assets/Header.css"
-        type="text/css"
-        rel="stylesheet"
-      ></link>
       <div className="flex justify-between items-center max-w-7xl max-auto p-8">
         <Link to="/">
           <h1 className="font-bold text-sm sm:text-lg flex flex-wrap">
