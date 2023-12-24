@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div>
+    <div class="page_wrap home_wrap">
       <section class="squares" id="squares">
         <div class="wrap">
           <div class="squares_in">
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       </section>
       <div className="py-20 px-6 max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold mb-4 text-white">Who Are We</h1>
+        <h1 className="text-3xl font-bold mb-4">Who Are We</h1>
         <p className="mb-4">General Manager:</p>
         <p className="mb-4">
           Food, clothing, housing and travelling are four basic necessities of

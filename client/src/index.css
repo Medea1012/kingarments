@@ -21,19 +21,34 @@ li {
 }
 
 @media only screen and (max-width: 769px) {
+  .home_wrap {
+    overflow: hidden;
+  }
+}
+.home_wrap {
+  background-color: rgb(242, 242, 242);
+  position: relative;
+}
+
+@media only screen and (max-width: 769px) {
   .squares,
   .videos {
     padding-top: 6vw;
   }
 }
+.squares,
+.videos {
+  padding-top: 1.90104vw;
+}
 
-.wrap {
+.home_wrap .wrap {
   max-width: 67.0833vw;
 }
+
 @media only screen and (max-width: 769px) {
   .wrap {
-    max-width: 100%;
-    padding: 0px 25px;
+    max-width: 100% !important;
+    padding: 0px 25px !important;
   }
 }
 
