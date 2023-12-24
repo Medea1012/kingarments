@@ -4,13 +4,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function Header() {
   return (
     <header className="shadow-md">
-      <div className="flex justify-between items-center max-w-7xl max-auto p-8">
+      <div className="flex justify-between items-center max-w-8xl max-auto p-8">
         <Link to="/">
           <h1 className="font-bold text-sm sm:text-lg flex flex-wrap">
-            <span>Kingarments</span>
+            <span className="text-black">Kingarments</span>
           </h1>
         </Link>
-        <ul className="flex gap-6">
+        <ul className="flex gap-9">
           <Link to="/about">
             <li className="hidden sm:inline text-slate-700">About us</li>
           </Link>

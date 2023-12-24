@@ -1,63 +1,50 @@
 export default function Home() {
   return (
     <div>
-      <div class="elementor-container">
-        <div
-          class="backpack"
-          // style="cursor: pointer;"
-          className="cursor:pointer;"
-          data-column-clickable="http://hagor.co.il/product-category/bags-and-backpacks/"
-          data-column-clickable-blank="_self"
-          data-id="51cf11f"
-          data-element_type="column"
-          data-settings='{"background_background":"classic"}'
-        >
-          <div class="elementor-widget-wrap elementor-element-populated">
-            <div class="elementor-background-overlay"></div>
-            <div
-              class="elementor-element elementor-element-7c94fd7 elementor-widget elementor-widget-heading"
-              data-id="7c94fd7"
-              data-element_type="widget"
-              data-widget_type="heading.default"
-            >
-              <div class="elementor-widget-container">
-                <h2 class="elementor-heading-title elementor-size-default">
-                  backpack
-                </h2>
-              </div>
-            </div>
-            <div
-              class="elementor-element elementor-element-f2d71db elementor-widget elementor-widget-text-editor"
-              data-id="f2d71db"
-              data-element_type="widget"
-              data-widget_type="text-editor.default"
-            >
-              <div class="elementor-widget-container">
-                <p>Winter Collection</p>
-              </div>
-            </div>
-            <div
-              class="elementor-element elementor-element-8a9a6e0 elementor-align-right cat-hover-btn elementor-widget elementor-widget-button"
-              data-id="8a9a6e0"
-              data-element_type="widget"
-              data-widget_type="button.default"
-            >
-              <div class="elementor-widget-container">
-                <div class="elementor-button-wrapper">
-                  <a
-                    class="elementor-button elementor-button-link elementor-size-sm"
-                    href="http://hagor.co.il/product-category/bags-and-backpacks/"
-                  >
-                    <span class="elementor-button-content-wrapper">
-                      <span class="elementor-button-text">SHOP NOW</span>
-                    </span>
-                  </a>
+      <section class="squares" id="squares">
+        <div class="wrap">
+          <div class="squares_in">
+            <div class="square">
+              <a
+                href="https://hagor.co.il/product-category/bags-and-backpacks/"
+                target="_self"
+              >
+                <div class="square_im">
+                  <img
+                    class="image"
+                    src="https://www.streetsigns.co.il/Images/signs/c2912.jpg"
+                    alt=""
+                  />
                 </div>
-              </div>
+                <div class="square_content">
+                  <div class="square_subtitle">2023</div>
+                  <h3 class="square_title">Winter collection </h3>
+                  <div class="square_tx"></div>
+                </div>
+              </a>
+            </div>
+            <div class="square">
+              <a
+                href="https://hagor.co.il/product-category/bags-and-backpacks/"
+                target="_self"
+              >
+                <div class="square_im">
+                  <img
+                    class="image"
+                    src="https://mekomot-eruim.co.il/images/businesses_multi/1681809696hagorpool93.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="square_content">
+                  <div class="square_subtitle">2023</div>
+                  <h3 class="square_title">Tactical bags collection</h3>
+                  <div class="square_tx"></div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <div className="py-20 px-6 max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold mb-4 text-white">Who Are We</h1>
         <p className="mb-4">General Manager:</p>
