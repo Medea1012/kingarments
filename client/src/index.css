@@ -6,6 +6,10 @@
 @tailwind components;
 @tailwind utilities;
 
+header {
+  background-color: green;
+}
+
 span {
   font-family: "Pacifico", cursive;
   font-size: x-large;
@@ -17,7 +21,7 @@ li:hover {
 }
 
 li {
-  font-family: "Cabin", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 @media only screen and (max-width: 769px) {
