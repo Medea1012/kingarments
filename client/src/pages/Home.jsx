@@ -148,6 +148,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div class="switch">
+          <p>Kingarments © WUHAN SWITCH CO LTD. All Rights Reserved.</p>
+        </div>
       </footer>
     </div>
   );
