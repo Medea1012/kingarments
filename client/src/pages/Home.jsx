@@ -77,7 +77,7 @@ export default function Home() {
         <div class="botton-item">
           <div class="left-wrap">
             <div class=" foot-info">
-              <p class="foot-title">QR Code</p>
+              <p class="foot-title foot-code">QR Code</p>
               <div class="foot-qrimg">
                 <img
                   src="https://next-with-ant-design.vercel.app/btc.jpg"

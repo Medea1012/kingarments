@@ -265,6 +265,9 @@ footer .foot-info {
   footer .foot-qrimg {
     display: none;
   }
+  .foot-code {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -279,6 +282,10 @@ footer .foot-title {
   margin-bottom: 15px;
 }
 
+.foot-title {
+  font-family: "Rowdies", sans-serif;
+}
+
 .foot-item {
   padding-left: 5%;
   align-items: center;
@@ -286,8 +293,8 @@ footer .foot-title {
 
 .botton-item {
   display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .item {
