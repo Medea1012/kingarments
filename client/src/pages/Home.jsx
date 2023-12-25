@@ -76,7 +76,7 @@ export default function Home() {
       <footer>
         <div class="botton-item">
           <div class="left-wrap">
-            <div class="foot-item foot-info">
+            <div class=" foot-info">
               <p class="foot-title">QR Code</p>
               <div class="foot-qrimg">
                 <img
@@ -91,7 +91,8 @@ export default function Home() {
             </div>
           </div>
           <div class="foot-item foot-quick">
-            <p class="foot-title foot-nav">Quick Navigation</p>
+            <p class="foot-title foot-nav">Navigation</p>
+
             <ul class="foot-list">
               <li class="menu">
                 <a href="http://127.0.0.1:5173/">
