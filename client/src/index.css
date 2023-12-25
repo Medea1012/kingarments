@@ -42,7 +42,7 @@ li {
 }
 
 .home_wrap .wrap {
-  max-width: 67.0833vw;
+  max-width: 80%;
 }
 
 @media only screen and (max-width: 769px) {
@@ -138,7 +138,7 @@ li {
 }
 
 .square_subtitle {
-  color: rgb(255, 145, 27);
+  color: white;
   font-family: "Dancing Script", cursive;
   font-size: 1.3vw;
   line-height: 1.2;
