@@ -149,6 +149,7 @@ li {
   font-size: 1.80729vw;
   line-height: 1.20173;
   font-weight: 900;
+  color: white;
 }
 
 @media only screen and (max-width: 769px) {
