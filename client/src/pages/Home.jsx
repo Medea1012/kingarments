@@ -1,3 +1,8 @@
+import { HiMiniArrowUpRight } from "react-icons/hi2";
+import { BsTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { FaLocationArrow } from "react-icons/fa";
+
 export default function Home() {
   return (
     <div class="page_wrap home_wrap">
@@ -68,6 +73,82 @@ export default function Home() {
           <p>Gary</p>
         </div>
       </div>
+      <footer>
+        <div class="botton-item">
+          <div class="left-wrap">
+            <div class="foot-item foot-info">
+              <p class="foot-title">QR Code</p>
+              <div class="foot-qrimg">
+                <img
+                  src="https://next-with-ant-design.vercel.app/btc.jpg"
+                  width="180"
+                  height="180"
+                  loading="lazy"
+                  class="ErWeiImg"
+                  alt="QR Code"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="foot-item foot-quick">
+            <p class="foot-title foot-nav">Quick Navigation</p>
+            <ul class="foot-list">
+              <li class="menu">
+                <a href="http://127.0.0.1:5173/">
+                  <HiMiniArrowUpRight />
+                  Home
+                </a>
+              </li>
+              <li class="menu">
+                <a href="http://127.0.0.1:5173/about">
+                  <HiMiniArrowUpRight />
+                  About us
+                </a>
+              </li>
+              <li class="menu">
+                <a href="http://127.0.0.1:5173/product">
+                  <HiMiniArrowUpRight />
+                  Products
+                </a>
+              </li>
+              <li class="menu">
+                <a href="http://127.0.0.1:5173/contact-us=">
+                  <HiMiniArrowUpRight />
+                  Contact us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="foot-item foot-contact">
+            <p class="foot-title">Contact us</p>
+            <div class="foot-tel">
+              <div class="tel-icon">
+                <BsTelephoneFill color="red" size="2vw" />
+                <p class="tel-text">Call us on</p>
+              </div>
+              <a href="tel:+86 13396070228" class="tel-num">
+                +86-13396070228
+              </a>
+            </div>
+            <div class="item">
+              <div class="email-icon">
+                <MdEmail size="1vw" />
+                <p class="email-text">Email:</p>
+              </div>
+              <a href="mailto:medea.wangxy@gmail.com" target="_blank">
+                medea.wangxy@gmail.com
+              </a>
+            </div>
+            <div class="item">
+              <div class="fax-icon">
+                <FaLocationArrow size="1vw" />
+                <p class="fax-text">Fax:</p>
+              </div>
+              <a href="tel:+86 27-87669028">86-27-87669028</a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

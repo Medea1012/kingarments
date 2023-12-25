@@ -180,7 +180,6 @@ a {
   text-decoration: none;
 }
 a:-webkit-any-link {
-  color: white;
   cursor: pointer;
 }
 
@@ -210,4 +209,132 @@ section {
 }
 .image {
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .left-wrap {
+    padding: 0px 15px;
+  }
+}
+
+.left-wrap {
+  width: 100%;
+  max-width: 1740px;
+  padding: 0px 70px;
+  margin: 0px auto;
+}
+
+@media (max-width: 768px) {
+  footer .foot-main {
+    padding: 30px 0px 0px;
+  }
+}
+
+footer .foot-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3% 0;
+}
+
+footer {
+  background-image: url("https://www.dnzhuti.com/uploads/allimg/180725/95-1PH5161F5.jpg");
+  background-size: 1600px;
+  background-position: 0cqmax;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  footer .foot-item {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  footer .foot-item {
+    width: 50% !important;
+    margin-bottom: 20px;
+  }
+}
+footer .foot-info {
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  footer .foot-qrimg {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .foot-item.foot-info .foot-title {
+    display: none;
+  }
+}
+footer .foot-title {
+  font-size: 20px;
+  font-weight: var(--fontblod5);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.botton-item {
+  display: flex;
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}
+
+footer .foot-quick .foot-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+li,
+ol,
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.tel-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.tel-text {
+  font-size: larger;
+}
+footer .foot-contact .foot-tel {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.tel-num {
+  font-weight: bold;
+}
+
+.email-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.email-text {
+  font-size: small;
+}
+
+.fax-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.fax-text {
+  font-size: small;
 }
