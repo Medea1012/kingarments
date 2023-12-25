@@ -12,13 +12,12 @@ export default function Home() {
                 <div class="square_im">
                   <img
                     class="image"
-                    src="https://www.streetsigns.co.il/Images/signs/c2912.jpg"
+                    src="https://res.cloudinary.com/doaazgsrk/image/upload/v1593536301/Beige/title_nbetk7.jpg"
                     alt=""
                   />
                 </div>
                 <div class="square_content">
-                  <div class="square_subtitle">2023</div>
-                  <h3 class="square_title">Winter collection </h3>
+                  <h3 class="square_title">Apparels</h3>
                   <div class="square_tx"></div>
                 </div>
               </a>
@@ -31,13 +30,12 @@ export default function Home() {
                 <div class="square_im">
                   <img
                     class="image"
-                    src="https://mekomot-eruim.co.il/images/businesses_multi/1681809696hagorpool93.jpg"
+                    src="https://www.crodaindustrialspecialties.com/mediaassets/images/industrial-chemicals/products-and-applications/nonwoven2.jpg?w=1920&la=en-GB&focalpointcrop=1&xratio=0&yratio=0&hash=A99CDD804A6829E8187BA6D8C7E7A3B1"
                     alt=""
                   />
                 </div>
                 <div class="square_content">
-                  <div class="square_subtitle">2023</div>
-                  <h3 class="square_title">Tactical bags collection</h3>
+                  <h3 class="square_title">Non woven products</h3>
                   <div class="square_tx"></div>
                 </div>
               </a>

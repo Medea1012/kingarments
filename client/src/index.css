@@ -38,7 +38,7 @@ li {
 }
 .squares,
 .videos {
-  padding-top: 1.90104vw;
+  padding-top: 2vw;
 }
 
 .home_wrap .wrap {
@@ -130,22 +130,6 @@ li {
   z-index: 2;
   bottom: 2.72917vw;
   left: 2.47396vw;
-}
-@media only screen and (max-width: 769px) {
-  .square_subtitle {
-    font-size: 5.2vw;
-  }
-}
-
-.square_subtitle {
-  color: white;
-  font-family: "Dancing Script", cursive;
-  font-size: 1.3vw;
-  line-height: 1.2;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.145313vw;
-  transition: all 0.3s ease-in-out 0s;
 }
 
 @media only screen and (max-width: 769px) {
