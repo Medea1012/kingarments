@@ -54,29 +54,40 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="py-20 px-6 max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold mb-4">Who Are We</h1>
-        <p className="mb-4">General Manager:</p>
-        <p className="mb-4">
-          Food, clothing, housing and travelling are four basic necessities of
-          people's life. Clothing leads human towards civilization. The British
-          Industrial Revolution in the 18th century began with the textile
-          industry. China's reform and opening up in the last century also began
-          with the textile and clothing industry.
-        </p>
-        <p className="mb-4">
-          I am fortunate to grow up with this era. My company, WUHAN SWITCH CO
-          LTD founded in 2018. I have been engaged in the clothing production
-          and export industry for more than 30 years. With 30 years of
-          experience in clothing export, our company exports all types of work
-          wear and casual wear. Our main markets are Europe and North America.
-          Superior quality and excellent service are our advantages. Welcome
-          friends from all over the world to discuss cooperation.
-        </p>
-        <div className="mb-2">
-          <p>Sincerely yours,</p>
-          <p>General Manager,</p>
-          <p>Gary</p>
+      <div className="py-20 px-6 max-w-6xl mx-auto" class="company">
+        <img
+          src="https://img0.baidu.com/it/u=1568117388,941498682&fm=253&fmt=auto&app=138&f=JPEG?w=756&h=500"
+          alt=""
+          class="company-image"
+        />
+
+        <div class="company-profile">
+          <h1 className="text-3xl font-bold mb-4">WUHAN SWITCH CO LTD</h1>
+          <p className="mb-4">
+            WUHAN SWITCH CO LTD was established in 2018. It located in Wuhan,
+            Hubei Province, China. It is a professional foreign trade company
+            engaged in import and export. In the company's inaugural year, its
+            annual revenue was only $300,000. In 2023, the revenue reached 3
+            million dollars.The rapid development of the company benefited from
+            two aspects. First, we have an excellent team with abundant work
+            experience to provide customers with outstanding services. Second,
+            we have a strong textile and non-woven industrial base in Hubei
+            Province.
+          </p>
+          <p className="mb-4">
+            Wuhan, known as Oriental Chicago, has convenient transportation in
+            China.Our products are concentrated in two fields, one is clothing,
+            especially all kinds of work clothes, and the other is non-woven
+            products, including non-woven protective clothing, medical
+            disposable non-woven products, including isolation clothing,
+            protective clothing, surgical clothing Clothes.
+          </p>
+          <p className="mb-4">
+            If you are interested in any of our products or would like to
+            discuss a custom order, please feel free to contact us. We are
+            looking forward to forming successful business relationships with
+            new clients around the world in the near future.
+          </p>
         </div>
       </div>
       <footer>
