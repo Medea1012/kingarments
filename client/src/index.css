@@ -313,6 +313,10 @@ img {
   height: auto;
 }
 
+footer .foot-quick .foot-list li {
+  width: 50%;
+}
+
 footer .foot-quick .foot-list {
   display: flex;
   flex-wrap: wrap;

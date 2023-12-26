@@ -76,7 +76,7 @@ export default function Home() {
       <footer>
         <div class="botton-item">
           <div class="left-wrap">
-            <div class=" foot-info">
+            <div class="foot-item foot-info">
               <p class="foot-title foot-code">QR Code</p>
               <div class="foot-qrimg">
                 <img
@@ -120,7 +120,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <div class="foot-item foot-contact">
+          <div class="foot-item foot-contact" className="hidden sm:inline">
             <p class="foot-title">Contact us</p>
             <div class="foot-tel">
               <div class="tel-icon">
