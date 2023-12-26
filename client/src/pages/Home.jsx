@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
@@ -113,28 +114,28 @@ export default function Home() {
 
             <ul class="foot-list">
               <li class="menu">
-                <a href="https://kingarments.onrender.com">
+                <Link to="/">
                   <HiMiniArrowUpRight />
                   Home
-                </a>
+                </Link>
               </li>
               <li class="menu">
-                <a href="https://kingarments.onrender.com/about">
+                <Link to="/about">
                   <HiMiniArrowUpRight />
                   About us
-                </a>
+                </Link>
               </li>
               <li class="menu">
-                <a href="https://kingarments.onrender.com/product">
+                <Link to="/product">
                   <HiMiniArrowUpRight />
                   Products
-                </a>
+                </Link>
               </li>
               <li class="menu">
-                <a href="https://kingarments.onrender.com/contact-us">
+                <Link to="/contact-us">
                   <HiMiniArrowUpRight />
                   Contact us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
