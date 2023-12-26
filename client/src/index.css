@@ -340,6 +340,7 @@ ul {
 .tel-icon {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 10%;
 }
 
@@ -358,6 +359,7 @@ footer .foot-contact .foot-tel {
 .email-icon {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 10%;
 }
 
@@ -368,6 +370,7 @@ footer .foot-contact .foot-tel {
 .fax-icon {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 10%;
 }
 
