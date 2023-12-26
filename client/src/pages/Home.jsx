@@ -2,6 +2,10 @@ import { HiMiniArrowUpRight } from "react-icons/hi2";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa";
+import { MdOutlineAttachEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import { AiFillAliwangwang } from "react-icons/ai";
+import { BsTelephoneOutboundFill } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -87,6 +91,20 @@ export default function Home() {
                   class="ErWeiImg"
                   alt="QR Code"
                 />
+                <div class="symbol">
+                  <a href="mailto:13396070228@vip.163.com" target="_blank">
+                    <MdOutlineAttachEmail size="1.5vw" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/medea-wang/">
+                    <FaLinkedin size="1.5vw" />
+                  </a>
+                  <a href="mailto:medea.wangxy@gmail.com" target="_blank">
+                    <AiFillAliwangwang size="1.5vw" />
+                  </a>
+                  <a href="tel:+86 13396070228">
+                    <BsTelephoneOutboundFill size="1.3vw" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -136,8 +154,8 @@ export default function Home() {
                 <MdEmail size="1vw" />
                 <p class="email-text">Email:</p>
               </div>
-              <a href="mailto:medea.wangxy@gmail.com" target="_blank">
-                medea.wangxy@gmail.com
+              <a href="mailto:13396070228@vip.163.com" target="_blank">
+                13396070228@vip.163.com
               </a>
             </div>
             <div class="item">

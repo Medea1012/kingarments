@@ -269,6 +269,12 @@ footer .foot-info {
     display: none;
   }
 }
+.symbol {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
 
 @media (max-width: 768px) {
   .foot-item.foot-info .foot-title {
