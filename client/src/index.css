@@ -294,7 +294,7 @@ footer .foot-title {
 
 .foot-item {
   padding-left: 5%;
-  align-items: center;
+  margin-right: 5%;
 }
 
 .botton-item {
@@ -335,16 +335,6 @@ ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
-}
-
-@media (max-width: 1024px) {
-  .right-wrap {
-    padding: 0px 15px;
-  }
-}
-
-.right-wrap {
-  display: flex;
 }
 
 .tel-icon {

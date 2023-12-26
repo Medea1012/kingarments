@@ -6,6 +6,7 @@ import { MdOutlineAttachEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { AiFillAliwangwang } from "react-icons/ai";
 import { BsTelephoneOutboundFill } from "react-icons/bs";
+import QRCode from "../assets/QRCode.jpg";
 
 export default function Home() {
   return (
@@ -84,11 +85,10 @@ export default function Home() {
               <p class="foot-title foot-code">QR Code</p>
               <div class="foot-qrimg">
                 <img
-                  src="https://next-with-ant-design.vercel.app/btc.jpg"
+                  src={QRCode}
                   width="180"
                   height="180"
                   loading="lazy"
-                  class="ErWeiImg"
                   alt="QR Code"
                 />
                 <div class="symbol">
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
           </div>
           <div class="foot-item foot-quick">
-            <p class="foot-title foot-nav">Navigation</p>
+            <p class="foot-title">Navigation</p>
 
             <ul class="foot-list">
               <li class="menu">
