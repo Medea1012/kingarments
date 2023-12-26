@@ -113,25 +113,25 @@ export default function Home() {
 
             <ul class="foot-list">
               <li class="menu">
-                <a href="http://127.0.0.1:5173/">
+                <a href="https://kingarments.onrender.com">
                   <HiMiniArrowUpRight />
                   Home
                 </a>
               </li>
               <li class="menu">
-                <a href="http://127.0.0.1:5173/about">
+                <a href="https://kingarments.onrender.com/about">
                   <HiMiniArrowUpRight />
                   About us
                 </a>
               </li>
               <li class="menu">
-                <a href="http://127.0.0.1:5173/product">
+                <a href="https://kingarments.onrender.com/product">
                   <HiMiniArrowUpRight />
                   Products
                 </a>
               </li>
               <li class="menu">
-                <a href="http://127.0.0.1:5173/contact-us=">
+                <a href="https://kingarments.onrender.com/contact-us">
                   <HiMiniArrowUpRight />
                   Contact us
                 </a>
