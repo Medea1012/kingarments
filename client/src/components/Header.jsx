@@ -11,9 +11,6 @@ export default function Header() {
           </h1>
         </Link>
         <ul className="flex gap-9">
-          <Link to="/about">
-            <li className="hidden sm:inline text-white">About us</li>
-          </Link>
           <Link to="/product">
             <li className="hidden sm:inline text-white">Our Products</li>
           </Link>

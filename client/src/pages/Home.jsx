@@ -127,12 +127,6 @@ export default function Home() {
               <li class="menu">
                 <Link to="/">
                   <HiMiniArrowUpRight />
-                  Home
-                </Link>
-              </li>
-              <li class="menu">
-                <Link to="/about">
-                  <HiMiniArrowUpRight />
                   About us
                 </Link>
               </li>
