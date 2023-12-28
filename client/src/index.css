@@ -456,9 +456,14 @@ footer .switch {
   background-color: #d8dcf5;
 }
 
+.contact-section {
+  background-color: #e9eaf3;
+}
+
 .title {
   font-weight: bold;
   padding-bottom: 20px;
+
   font-size: large;
 }
 
@@ -469,7 +474,7 @@ footer .switch {
 }
 
 .left-contact {
-  padding: 5% 20% 10% 20%;
+  padding: 10% 20% 10% 20%;
 }
 
 .contact-tel {
