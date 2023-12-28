@@ -8,7 +8,7 @@ export default function Contact() {
               <img
                 class="tel-icon"
                 alt=""
-                src="https://cdn.iconscout.com/icon/free/png-512/free-phone-1559-461603.png?f=webp&w=512"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Phone_iOS.png/640px-Phone_iOS.png"
               />
             </div>
             <div class="text-list">
@@ -44,7 +44,7 @@ export default function Contact() {
               <img
                 class="tel-icon"
                 alt=""
-                src="https://logos-world.net/wp-content/uploads/2023/03/Messages-Logo-500x281.png"
+                src="https://cdn0.iconfinder.com/data/icons/apple-apps/100/Apple_Mail-1024.png"
               />
             </div>
             <div class="text-list">
