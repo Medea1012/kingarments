@@ -15,7 +15,7 @@ export default function Contact() {
               <p class="title">Call Us</p>
               <div class="text-list-1">
                 <p class="text">
-                  China:
+                  China:{" "}
                   <a href="tel:+86 13396070228" class="tel-num">
                     +86-13396070228
                   </a>
@@ -23,7 +23,7 @@ export default function Contact() {
               </div>
               <div class="text-list-1">
                 <p class="text">
-                  Canada:
+                  Canada:{" "}
                   <a href="tel:+1 6479243724" class="tel-num">
                     +1-6479243724
                   </a>
@@ -31,7 +31,7 @@ export default function Contact() {
               </div>
               <div class="text-list-1">
                 <p class="text">
-                  Fax:
+                  Fax:{" "}
                   <a href="tel:+86 27-87669028" className="font-bold">
                     86-27-87669028
                   </a>
@@ -51,11 +51,12 @@ export default function Contact() {
               <p class="title">Email Us</p>
               <div class="text-list-1">
                 <p class="text">
-                  Gray:
+                  Gray:{" "}
                   <a
                     target="_blank"
                     id="A_9"
                     href="mailto:13396070228@vip.163.com"
+                    className="font-bold"
                   >
                     13396070228@vip.163.com
                   </a>
@@ -63,11 +64,12 @@ export default function Contact() {
               </div>
               <div class="text-list-1">
                 <p class="text">
-                  Medea:
+                  Medea:{" "}
                   <a
                     target="_blank"
                     id="A_9"
                     href="mailto:medea.wangxy@gmail.com"
+                    className="font-bold"
                   >
                     medea.wangxy@gmail.com
                   </a>
