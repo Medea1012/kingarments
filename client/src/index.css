@@ -468,8 +468,15 @@ footer .switch {
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 900px) {
+  .contact-item {
+    flex-direction: column;
+    margin: 0px;
+  }
+}
+
 .contact-item {
-  width: 49%;
+  width: 45%;
   background: #fff;
   box-shadow: 0 1px 22px 7px rgba(198, 198, 198, 0.3);
   border-radius: 5px;
