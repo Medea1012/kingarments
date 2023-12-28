@@ -450,3 +450,70 @@ footer .switch {
 .home_wrap {
   background-color: #d8dcf5;
 }
+
+@media (max-width: 768px) {
+  .common-main {
+    padding: 15px 0px 30px;
+  }
+}
+
+.contact-main {
+  background-color: #fcf2f2;
+}
+
+.contact-list {
+  padding: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-item {
+  width: 29%;
+  background: #fff;
+  box-shadow: 0 1px 22px 7px rgba(198, 198, 198, 0.3);
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  transition: all 3s;
+}
+
+.contact-item:hover {
+  transform: scale(1.07);
+}
+
+.contact-list .contact-item .title {
+  font-size: 24px;
+  font-weight: var(--fontblod5);
+  color: #091c3d;
+  padding: 20px 0px 10px;
+}
+
+.contact-list .contact-item img {
+  height: 100px;
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-list .contact-item img {
+  height: 90px;
+}
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-list {
+  display: flex;
+  flex-direction: column;
+  color: #8d8181;
+}
+
+.icon {
+  padding-left: 32%;
+}
