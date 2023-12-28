@@ -6,6 +6,7 @@ export default function Contact() {
           <div class="contact-item">
             <div class="icon">
               <img
+                class="tel-icon"
                 alt=""
                 src="https://cdn.iconscout.com/icon/free/png-512/free-phone-1559-461603.png?f=webp&w=512"
               />
@@ -33,6 +34,42 @@ export default function Contact() {
                   Fax:
                   <a href="tel:+86 27-87669028" className="font-bold">
                     86-27-87669028
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                class="tel-icon"
+                alt=""
+                src="https://logos-world.net/wp-content/uploads/2023/03/Messages-Logo-500x281.png"
+              />
+            </div>
+            <div class="text-list">
+              <p class="title">Email Us</p>
+              <div class="text-list-1">
+                <p class="text">
+                  Gray:
+                  <a
+                    target="_blank"
+                    id="A_9"
+                    href="mailto:13396070228@vip.163.com"
+                  >
+                    13396070228@vip.163.com
+                  </a>
+                </p>
+              </div>
+              <div class="text-list-1">
+                <p class="text">
+                  Medea:
+                  <a
+                    target="_blank"
+                    id="A_9"
+                    href="mailto:medea.wangxy@gmail.com"
+                  >
+                    medea.wangxy@gmail.com
                   </a>
                 </p>
               </div>

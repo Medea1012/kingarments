@@ -457,8 +457,8 @@ footer .switch {
   }
 }
 
-.contact-main {
-  background-color: #fcf2f2;
+.common-main {
+  background-color: #f0eded;
 }
 
 .contact-list {
@@ -469,17 +469,17 @@ footer .switch {
 }
 
 .contact-item {
-  width: 29%;
+  width: 49%;
   background: #fff;
   box-shadow: 0 1px 22px 7px rgba(198, 198, 198, 0.3);
   border-radius: 5px;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
   transition: all 3s;
 }
 
 .contact-item:hover {
-  transform: scale(1.07);
+  transform: scale(1.01);
 }
 
 .contact-list .contact-item .title {
@@ -515,5 +515,6 @@ img {
 }
 
 .icon {
-  padding-left: 32%;
+  display: flex;
+  justify-content: center;
 }
