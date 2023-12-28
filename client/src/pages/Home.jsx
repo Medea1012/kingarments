@@ -91,7 +91,7 @@ export default function Home() {
         </div>
       </div>
       <footer>
-        <div class="botton-item">
+        <div class="botton-item contact-us-bottom">
           <div class="left-wrap">
             <div class="foot-item foot-info">
               <p class="foot-title foot-code">QR Code</p>
@@ -160,7 +160,11 @@ export default function Home() {
                 <MdEmail size="1vw" />
                 <p class="email-text">Email:</p>
               </div>
-              <a href="mailto:13396070228@vip.163.com" target="_blank">
+              <a
+                href="mailto:13396070228@vip.163.com"
+                target="_blank"
+                class="tel-num"
+              >
                 13396070228@vip.163.com
               </a>
             </div>
@@ -169,7 +173,9 @@ export default function Home() {
                 <FaLocationArrow size="1vw" />
                 <p class="fax-text">Fax:</p>
               </div>
-              <a href="tel:+86 27-87669028">86-27-87669028</a>
+              <a href="tel:+86 27-87669028" class="tel-num">
+                86-27-87669028
+              </a>
             </div>
           </div>
         </div>

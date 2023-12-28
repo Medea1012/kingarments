@@ -363,6 +363,11 @@ footer .foot-contact .foot-tel {
   font-weight: bold;
 }
 
+.tel-num:hover {
+  color: #8084e5;
+  text-decoration: underline;
+}
+
 .email-icon {
   display: flex;
   flex-direction: row;
@@ -460,10 +465,11 @@ footer .switch {
 .email-text {
   display: flex;
   flex-direction: column;
+  font-size: medium;
 }
 
 .left-contact {
-  padding: 10% 20% 10% 20%;
+  padding: 5% 20% 10% 20%;
 }
 
 .contact-tel {
