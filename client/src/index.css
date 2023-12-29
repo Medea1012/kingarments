@@ -473,8 +473,19 @@ footer .switch {
   font-size: medium;
 }
 
-.left-contact {
+.total-section {
   padding: 10% 20% 10% 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .email-text {
+    display: flex;
+    font-size: xx-small;
+  }
 }
 
 .contact-tel {
@@ -496,4 +507,40 @@ footer .switch {
 
 .contact-email-icon {
   padding-right: 5%;
+}
+
+.contact-title {
+  font-family: "Pacifico", cursive;
+  padding-top: 1%;
+  background-color: #d8dcf5;
+  align-items: center;
+  padding-left: 1%;
+}
+
+.total-contact {
+  padding: 10% 20% 10% 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contact-bottom {
+  background-image: url("https://www.dnzhuti.com/uploads/allimg/180725/95-1PH5161F5.jpg");
+  background-size: 1600px;
+  background-position: 0cqmax;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+}
+
+.back-to {
+  position: relative;
+  padding-top: 5%;
+  padding-left: 90%;
+  padding-bottom: 5%;
+}
+
+.switch-lab {
+  color: white;
+  text-align: center;
 }

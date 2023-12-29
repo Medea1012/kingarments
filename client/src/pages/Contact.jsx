@@ -1,15 +1,18 @@
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
+import { RxDoubleArrowLeft } from "react-icons/rx";
 export default function Contact() {
   return (
-    <section class="contact-section">
-      <div></div>
-      <div>
-        <div class="left-contact">
+    <section>
+      <div class="contact-section">
+        <div class="contact-title">
           <h2 class="title">Contact Us</h2>
+        </div>
+        <div class="total-contact">
           <div class="contact-tel">
             <div class="contact-tel-icon">
-              <BsFillTelephoneOutboundFill />
+              <MdEmail />
             </div>
             <div class="contact-tel-text">
               <p class="email-text">
@@ -34,7 +37,7 @@ export default function Contact() {
           </div>
           <div class="contact-email">
             <div class="contact-email-icon">
-              <MdEmail />
+              <BsFillTelephoneOutboundFill />
             </div>
             <p class="email-text">
               China:{" "}
@@ -47,6 +50,17 @@ export default function Contact() {
               </a>
             </p>
           </div>
+        </div>
+      </div>
+      <div class="contact-bottom">
+        <div class="back-to">
+          <Link to="/">
+            <RxDoubleArrowLeft />
+            Back to Home
+          </Link>
+        </div>
+        <div class="switch-lab">
+          <p>Kingarments © WUHAN SWITCH CO LTD. All Rights Reserved.</p>
         </div>
       </div>
     </section>
