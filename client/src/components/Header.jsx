@@ -11,8 +11,11 @@ export default function Header() {
           </h1>
         </Link>
         <ul className="flex gap-9">
-          <Link to="/product">
-            <li className="hidden sm:inline text-white">Our Products</li>
+          <Link to="/product/apparels">
+            <li className="hidden sm:inline text-white">Apparels</li>
+          </Link>
+          <Link to="/product/woven">
+            <li className="hidden sm:inline text-white">Woven</li>
           </Link>
           <Link to="/contact-us">
             <li className="hidden sm:inline text-white">Contact us</li>
