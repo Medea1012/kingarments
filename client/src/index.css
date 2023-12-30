@@ -463,7 +463,6 @@ footer .switch {
 .title {
   font-weight: bold;
   padding-bottom: 20px;
-
   font-size: large;
 }
 
@@ -511,7 +510,6 @@ footer .switch {
 
 .contact-title {
   font-family: "Pacifico", cursive;
-  padding-top: 1%;
   background-color: #d8dcf5;
   align-items: center;
   padding-left: 1%;
@@ -568,6 +566,15 @@ footer .switch {
   }
 }
 
+.product-cateitem {
+  transition: all 3s;
+}
+
+.product-cateitem:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+}
+
 .product-catelist .product-cateitem {
   width: 32%;
   margin-bottom: 2em;
@@ -616,7 +623,7 @@ footer .switch {
   }
 }
 .common-main {
-  padding: 50px 0px 80px;
+  padding: 0px 80px;
 }
 
 @media (max-width: 1024px) {
@@ -628,6 +635,6 @@ footer .switch {
 .a-left-wrap {
   width: 100%;
   max-width: 1740px;
-  padding: 20px 70px;
+  padding: 30px 70px;
   margin: 0px auto;
 }
