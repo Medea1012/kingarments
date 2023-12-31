@@ -125,12 +125,6 @@ export default function Home() {
 
             <ul class="foot-list">
               <li class="menu">
-                <Link to="/">
-                  <HiMiniArrowUpRight />
-                  About us
-                </Link>
-              </li>
-              <li class="menu">
                 <Link to="/product/apparels">
                   <HiMiniArrowUpRight />
                   Apparels

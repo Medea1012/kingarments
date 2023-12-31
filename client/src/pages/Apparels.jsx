@@ -110,7 +110,11 @@ export default function Apparels() {
                 <h2 class="woocommerce-loop-product__title">
                   Soldier softshell
                 </h2>
-                <p class="excerpt">insulated and pleasant to the touch.</p>
+                <p class="excerpt">
+                  High-quality and durable fabric, insulated and pleasant to the
+                  touch, provides perfect insulation from cold and moisture,
+                  without being bulky and heavy.
+                </p>
               </div>
             </a>
           </li>
