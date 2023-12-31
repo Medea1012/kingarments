@@ -612,4 +612,13 @@ ul,
 
 .product {
   border: 1px solid #dcdbdb;
+  transition: all 3s;
+}
+
+.product {
+  cursor: pointer;
+}
+
+.product:hover {
+  transform: scale(1.03);
 }

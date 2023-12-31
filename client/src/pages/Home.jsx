@@ -131,9 +131,15 @@ export default function Home() {
                 </Link>
               </li>
               <li class="menu">
-                <Link to="/product">
+                <Link to="/product/apparels">
                   <HiMiniArrowUpRight />
-                  Products
+                  Apparels
+                </Link>
+              </li>
+              <li class="menu">
+                <Link to="/product/woven">
+                  <HiMiniArrowUpRight />
+                  Woven
                 </Link>
               </li>
               <li class="menu">
