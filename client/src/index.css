@@ -613,6 +613,7 @@ ul,
 .product {
   border: 1px solid #dcdbdb;
   transition: all 3s;
+  margin-bottom: 5vw;
 }
 
 .product {
@@ -621,4 +622,19 @@ ul,
 
 .product:hover {
   transform: scale(1.03);
+}
+
+@media screen and (max-width: 767px) {
+  .type-product .product-data {
+    padding: 5px 0 0 0;
+  }
+}
+
+.type-product .product-data {
+  position: relative;
+  padding: 15px 0 0 0;
+  color: #222;
+  text-align: center;
+  background: #f6f6f6;
+  z-index: 10;
 }
