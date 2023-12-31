@@ -7,107 +7,114 @@ export default function Apparels() {
         <div class="contact-title">
           <h2 class="title">Apparels</h2>
         </div>
-        <div class="a-left-wrap">
-          <div class="page-container">
-            <div class="product-catelist">
-              <div class="product-cateitem">
-                <a
-                  href="https://hagor.co.il/shop/soldiers/%d7%90%d7%91%d7%99%d7%96%d7%a8%d7%99%d7%9d/%d7%9e%d7%90%d7%a8%d7%96-2-%d7%97%d7%95%d7%9c%d7%a6%d7%95%d7%aa-t-%d7%9c%d7%90%d7%99%d7%a9%d7%94/"
-                  class="cate-img lazy-wrap lazy-loaded"
-                >
-                  <img
-                    class="lazy entered loaded"
-                    alt="Tshirts"
-                    data-ll-status="loaded"
-                    src="https://hagor.co.il/wp-content/uploads/2021/11/Tshirts_0006_7290116121789_2.jpg"
-                  />
-                  <span class="lazy-load"></span>
-                </a>
-                <a
-                  href="https://www.munibags.com/outdoor-bag/"
-                  class="cate-info"
-                >
-                  <div class="cate-title">Outdoor T-shirt</div>
-                  <div class="cate-text line2">T-shirt</div>
-                  <div class="cate-more">
-                    <em class="iconfont icon-jiahao"></em>
-                  </div>
-                </a>
+        <ul class="products columns-2">
+          <li
+            class="pif-has-gallery product type-product post-23591 status-publish first instock product_cat--soldiers product_cat-soldiers has-post-thumbnail shipping-taxable purchasable product-type-simple berocket_lmp_first_on_page"
+            data-url="https://hagor.co.il/product-category/soldiers/"
+          >
+            <a
+              href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%9e%d7%99%d7%9e%d7%99%d7%99%d7%94/"
+              class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
+            >
+              <img
+                fetchpriority="high"
+                width="500"
+                height="500"
+                src="https://hagor.co.il/wp-content/uploads/2020/10/softshells_0004_man-softshell2-1-1.jpg"
+                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                alt=""
+                decoding="async"
+                sizes="(max-width: 500px) 100vw, 500px"
+              />
+              <div class="product-data">
+                <h2 class="woocommerce-loop-product__title">Dubon Coat</h2>
+                <p class="excerpt">
+                  Hagor’s new edition of the classic Dubon Coat. The filling is
+                  made from high quality hollowfiber material for heat
+                  isolation. The coat has two side pockets, an internal pocket,
+                  and a hood.
+                </p>
               </div>
-              <div class="product-cateitem">
-                <a
-                  href="https://hagor.co.il/shop/winter-clothing/%d7%97%d7%a8%d7%9e%d7%95%d7%a0%d7%99%d7%95%d7%aa/%d7%97%d7%a8%d7%9e%d7%95%d7%a0%d7%99%d7%aa-%d7%a4%d7%99%d7%a7/"
-                  class="cate-img lazy-wrap lazy-loaded"
-                >
-                  <img
-                    class="lazy entered loaded"
-                    alt="Cycling"
-                    data-ll-status="loaded"
-                    src="https://hagor.co.il/wp-content/uploads/2020/10/pik_s_flip.jpg"
-                  />
-                  <span class="lazy-load"></span>
-                </a>
-                <a href="https://www.munibags.com/cycling/" class="cate-info">
-                  <div class="cate-title">cloth</div>
-                  <div class="cate-text line2">
-                    This cloth is specifically designed for outdoor sport use.
-                  </div>
-                  <div class="cate-more">
-                    <em class="iconfont icon-jiahao"></em>
-                  </div>
-                </a>
+            </a>
+          </li>
+          <li class="pif-has-gallery product type-product post-22644 status-publish instock product_cat-217 product_cat--soldiers product_cat-soldiers has-post-thumbnail shipping-taxable purchasable product-type-variable">
+            <a
+              href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
+              class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
+            >
+              <img
+                loading="lazy"
+                width="500"
+                height="500"
+                src="https://hagor.co.il/wp-content/uploads/2020/11/bofalo_flip_green.jpg"
+                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                alt=""
+                decoding="async"
+                sizes="(max-width: 500px) 100vw, 500px"
+              />
+              <div class="product-data">
+                <h2 class="woocommerce-loop-product__title">
+                  Buffalo Snowsuit
+                </h2>
+                <p class="excerpt">
+                  A classic Snowsuit made of extra strong fabric with high
+                  flexibility and a redesign that allows maximum freedom of
+                  movement and up-to-date visibility.
+                </p>
               </div>
-              <div class="product-cateitem">
-                <a
-                  href="https://www.munibags.com/dry-bag/"
-                  class="cate-img lazy-wrap lazy-loaded"
-                >
-                  <img
-                    class="lazy entered loaded"
-                    alt="Dry Bag"
-                    data-ll-status="loaded"
-                    src="https://hagor.co.il/wp-content/uploads/2020/10/Termi_0012_7290106321960_3.jpg"
-                  />
-                  <span class="lazy-load"></span>
-                </a>
-                <a href="https://www.munibags.com/dry-bag/" class="cate-info">
-                  <div class="cate-title">Jeans</div>
-                  <div class="cate-text line2">
-                    Made of tough yet lightweight nylon ripstop-TPU coated
-                    material.
-                  </div>
-                  <div class="cate-more">
-                    <em class="iconfont icon-jiahao"></em>
-                  </div>
-                </a>
+            </a>
+          </li>
+          <li class="pif-has-gallery product type-product post-22644 status-publish instock product_cat-217 product_cat--soldiers product_cat-soldiers has-post-thumbnail shipping-taxable purchasable product-type-variable">
+            <a
+              href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
+              class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
+            >
+              <img
+                loading="lazy"
+                width="500"
+                height="500"
+                src="https://hagor.co.il/wp-content/uploads/2020/11/kids5_flip.jpg"
+                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                alt=""
+                decoding="async"
+                sizes="(max-width: 500px) 100vw, 500px"
+              />
+              <div class="product-data">
+                <h2 class="woocommerce-loop-product__title">
+                  Buffalo Snowsuit
+                </h2>
+                <p class="excerpt">
+                  A classic Snowsuit made of extra strong fabric with high
+                  flexibility and a redesign that allows maximum freedom of
+                  movement and up-to-date visibility.
+                </p>
               </div>
-              <div class="product-cateitem">
-                <a
-                  href="https://www.munibags.com/military-bag/"
-                  class="cate-img lazy-wrap lazy-loaded"
-                >
-                  <img
-                    class="lazy entered loaded"
-                    alt="Military Bag"
-                    data-ll-status="loaded"
-                    src="https://hagor.co.il/wp-content/uploads/2020/10/softShell_0003_7290116122892_3.jpg"
-                  />
-                  <span class="lazy-load"></span>
-                </a>
-                <a
-                  href="https://www.munibags.com/military-bag/"
-                  class="cate-info"
-                >
-                  <div class="cate-title">jackets</div>
-                  <div class="cate-text line2">jackets</div>
-                  <div class="cate-more">
-                    <em class="iconfont icon-jiahao"></em>
-                  </div>
-                </a>
+            </a>
+          </li>
+          <li class="pif-has-gallery product type-product post-22644 status-publish instock product_cat-217 product_cat--soldiers product_cat-soldiers has-post-thumbnail shipping-taxable purchasable product-type-variable">
+            <a
+              href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
+              class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
+            >
+              <img
+                loading="lazy"
+                width="500"
+                height="500"
+                src="https://hagor.co.il/wp-content/uploads/2020/10/softShell_0003_7290116122892_3.jpg"
+                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                alt=""
+                decoding="async"
+                sizes="(max-width: 500px) 100vw, 500px"
+              />
+              <div class="product-data">
+                <h2 class="woocommerce-loop-product__title">
+                  Soldier softshell
+                </h2>
+                <p class="excerpt">insulated and pleasant to the touch.</p>
               </div>
-            </div>
-          </div>
-        </div>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   );
