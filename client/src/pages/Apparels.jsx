@@ -1,4 +1,5 @@
-import React from "react";
+import { Link } from "react-router-dom";
+import { RxDoubleArrowLeft } from "react-icons/rx";
 
 export default function Apparels() {
   return (
@@ -9,7 +10,7 @@ export default function Apparels() {
         </div>
         <ul class="products columns-2">
           <li
-            class="pif-has-gallery product type-product post-23591 status-publish first instock product_cat--soldiers product_cat-soldiers has-post-thumbnail shipping-taxable purchasable product-type-simple berocket_lmp_first_on_page"
+            class="product type-product product-data"
             data-url="https://hagor.co.il/product-category/soldiers/"
           >
             <a
@@ -37,7 +38,7 @@ export default function Apparels() {
               </div>
             </a>
           </li>
-          <li class="pif-has-gallery product type-product post-22644 status-publish instock product_cat-217 product_cat--soldiers product_cat-soldiers has-post-thumbnail shipping-taxable purchasable product-type-variable">
+          <li class="product type-product product-data">
             <a
               href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
               class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
@@ -64,7 +65,7 @@ export default function Apparels() {
               </div>
             </a>
           </li>
-          <li class="pif-has-gallery product type-product post-22644 status-publish instock product_cat-217 product_cat--soldiers product_cat-soldiers has-post-thumbnail shipping-taxable purchasable product-type-variable">
+          <li class="product type-product product-data">
             <a
               href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
               class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
@@ -91,7 +92,7 @@ export default function Apparels() {
               </div>
             </a>
           </li>
-          <li class="pif-has-gallery product type-product post-22644 status-publish instock product_cat-217 product_cat--soldiers product_cat-soldiers has-post-thumbnail shipping-taxable purchasable product-type-variable">
+          <li class="product type-product product-data">
             <a
               href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
               class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
@@ -119,6 +120,21 @@ export default function Apparels() {
             </a>
           </li>
         </ul>
+      </div>
+      <div class="contact-bottom">
+        <div class="back-to">
+          <Link to="/">
+            <RxDoubleArrowLeft />
+            Back to Home
+          </Link>
+          <Link to="product/woven">
+            <RxDoubleArrowLeft />
+            Woven
+          </Link>
+        </div>
+        <div class="switch-lab">
+          <p>Kingarments © WUHAN SWITCH CO LTD. All Rights Reserved.</p>
+        </div>
       </div>
     </section>
   );
