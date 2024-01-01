@@ -6,7 +6,7 @@ export default function Woven() {
     <section>
       <div class="common-main">
         <div class="contact-title">
-          <h2 class="title">Apparels</h2>
+          <h2 class="title">Wovens</h2>
         </div>
         <ul class="products columns-2">
           <li
@@ -123,14 +123,18 @@ export default function Woven() {
       </div>
       <div class="contact-bottom">
         <div class="back-to">
-          <Link to="/">
-            <RxDoubleArrowLeft />
-            Back to Home
-          </Link>
-          <Link to="/product/apparels">
-            <RxDoubleArrowLeft />
-            Apparels
-          </Link>
+          <div class="back-link">
+            <Link to="/">
+              <RxDoubleArrowLeft />
+              Back to Home
+            </Link>
+          </div>
+          <div class="back-link">
+            <Link to="/product/apparels">
+              <RxDoubleArrowLeft />
+              Apparels
+            </Link>
+          </div>
         </div>
         <div class="switch-lab">
           <p>Kingarments © WUHAN SWITCH CO LTD. All Rights Reserved.</p>

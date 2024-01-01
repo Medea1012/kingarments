@@ -123,14 +123,18 @@ export default function Apparels() {
       </div>
       <div class="contact-bottom">
         <div class="back-to">
-          <Link to="/">
-            <RxDoubleArrowLeft />
-            Back to Home
-          </Link>
-          <Link to="/product/woven">
-            <RxDoubleArrowLeft />
-            Woven
-          </Link>
+          <div class="back-link">
+            <Link to="/">
+              <RxDoubleArrowLeft />
+              Back to Home
+            </Link>
+          </div>
+          <div class="back-link">
+            <Link to="/product/woven">
+              <RxDoubleArrowLeft />
+              Woven
+            </Link>
+          </div>
         </div>
         <div class="switch-lab">
           <p>Kingarments © WUHAN SWITCH CO LTD. All Rights Reserved.</p>
