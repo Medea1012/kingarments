@@ -1,4 +1,5 @@
-import React from "react";
+import { Link } from "react-router-dom";
+import { RxDoubleArrowLeft } from "react-icons/rx";
 
 export default function Woven() {
   return (
@@ -119,6 +120,21 @@ export default function Woven() {
             </a>
           </li>
         </ul>
+      </div>
+      <div class="contact-bottom">
+        <div class="back-to">
+          <Link to="/">
+            <RxDoubleArrowLeft />
+            Back to Home
+          </Link>
+          <Link to="/product/apparels">
+            <RxDoubleArrowLeft />
+            Apparels
+          </Link>
+        </div>
+        <div class="switch-lab">
+          <p>Kingarments © WUHAN SWITCH CO LTD. All Rights Reserved.</p>
+        </div>
       </div>
     </section>
   );

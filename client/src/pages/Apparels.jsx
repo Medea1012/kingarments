@@ -127,7 +127,7 @@ export default function Apparels() {
             <RxDoubleArrowLeft />
             Back to Home
           </Link>
-          <Link to="product/woven">
+          <Link to="/product/woven">
             <RxDoubleArrowLeft />
             Woven
           </Link>
