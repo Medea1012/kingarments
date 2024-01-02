@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import { RxDoubleArrowLeft } from "react-icons/rx";
+import surgery from "../assets/surgery gowns.jpg";
+import bouffant from "../assets/bouffant cap and mask.jpg";
+import woven from "../assets/woven.jpg";
+import boots from "../assets/boots cover.jpg";
 
 export default function Woven() {
   return (
@@ -14,14 +18,14 @@ export default function Woven() {
             data-url="https://hagor.co.il/product-category/soldiers/"
           >
             <a
-              href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%9e%d7%99%d7%9e%d7%99%d7%99%d7%94/"
+              href="https://hagor.co.il/product-category/soldiers/"
               class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
             >
               <img
                 fetchpriority="high"
-                width="500"
-                height="500"
-                src="https://hagor.co.il/wp-content/uploads/2020/10/softshells_0004_man-softshell2-1-1.jpg"
+                width="400"
+                height="400"
+                src={surgery}
                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                 alt=""
                 decoding="async"
@@ -47,7 +51,7 @@ export default function Woven() {
                 loading="lazy"
                 width="500"
                 height="500"
-                src="https://hagor.co.il/wp-content/uploads/2020/11/bofalo_flip_green.jpg"
+                src={woven}
                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                 alt=""
                 decoding="async"
@@ -74,7 +78,7 @@ export default function Woven() {
                 loading="lazy"
                 width="500"
                 height="500"
-                src="https://hagor.co.il/wp-content/uploads/2020/11/kids5_flip.jpg"
+                src={bouffant}
                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                 alt=""
                 decoding="async"
@@ -101,7 +105,7 @@ export default function Woven() {
                 loading="lazy"
                 width="500"
                 height="500"
-                src="https://hagor.co.il/wp-content/uploads/2020/10/softShell_0003_7290116122892_3.jpg"
+                src={boots}
                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                 alt=""
                 decoding="async"
