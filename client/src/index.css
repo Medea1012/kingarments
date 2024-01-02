@@ -661,3 +661,10 @@ ul,
 .back-link:hover {
   color: #d66070;
 }
+
+.p-c {
+  display: inline-block;
+  vertical-align: middle;
+  height: 60%;
+  width: 50%;
+}
