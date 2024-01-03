@@ -20,12 +20,9 @@ export default function Woven() {
             </video>
           </div>
         </div>
-        <ul class="products columns-2">
-          <div class="p-c">
-            <li
-              class="product type-product product-data"
-              data-url="https://hagor.co.il/product-category/soldiers/"
-            >
+        <div class="page-container">
+          <div class="product-list">
+            <div class="product-item">
               <a
                 href="https://hagor.co.il/product-category/soldiers/"
                 class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
@@ -40,96 +37,94 @@ export default function Woven() {
                   decoding="async"
                   sizes="(max-width: 500px) 100vw, 500px"
                 />
-                <div class="product-data">
-                  <h2 class="woocommerce-loop-product__title">Surgery suits</h2>
-                  <p class="excerpt">
-                    Hagor’s new edition of the classic Dubon Coat. The filling
-                    is made from high quality hollowfiber material for heat
-                    isolation. The coat has two side pockets, an internal
-                    pocket, and a hood.
-                  </p>
-                </div>
               </a>
-            </li>
-          </div>
-          <li class="product type-product product-data">
-            <a
-              href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
-              class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-            >
-              <img
-                loading="lazy"
-                width="500"
-                height="500"
-                src={woven}
-                class="attachment"
-                alt=""
-                decoding="async"
-                sizes="(max-width: 500px) 100vw, 500px"
-              />
               <div class="product-data">
-                <h2 class="woocommerce-loop-product__title">Woven</h2>
+                <h2 class="product-title">Surgery suits</h2>
+                <p class="excerpt">
+                  Hagor’s new edition of the classic Dubon Coat. The filling is
+                  made from high quality hollowfiber material for heat
+                  isolation. The coat has two side pockets, an internal pocket,
+                  and a hood.
+                </p>
+              </div>
+            </div>
+            <div class="product-item">
+              <a
+                href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
+                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
+              >
+                <img
+                  loading="lazy"
+                  width="500"
+                  height="500"
+                  src={woven}
+                  class="attachment"
+                  alt=""
+                  decoding="async"
+                  sizes="(max-width: 500px) 100vw, 500px"
+                />
+              </a>
+              <div class="product-data">
+                <h2 class="product-title">Woven</h2>
                 <p class="excerpt">
                   A classic Snowsuit made of extra strong fabric with high
                   flexibility and a redesign that allows maximum freedom of
                   movement and up-to-date visibility.
                 </p>
               </div>
-            </a>
-          </li>
-          <li class="product type-product product-data">
-            <a
-              href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
-              class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-            >
-              <img
-                loading="lazy"
-                width="500"
-                height="500"
-                src={bouffant}
-                class="attachment"
-                alt=""
-                decoding="async"
-                sizes="(max-width: 500px) 100vw, 500px"
-              />
+            </div>
+            <div class="product-item">
+              <a
+                href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
+                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
+              >
+                <img
+                  loading="lazy"
+                  width="500"
+                  height="500"
+                  src={bouffant}
+                  class="attachment"
+                  alt=""
+                  decoding="async"
+                  sizes="(max-width: 500px) 100vw, 500px"
+                />
+              </a>
               <div class="product-data">
-                <h2 class="woocommerce-loop-product__title">
-                  bouffant cap and mask
-                </h2>
+                <h2 class="product-title">bouffant cap and mask</h2>
                 <p class="excerpt">
                   A classic Snowsuit made of extra strong fabric with high
                   flexibility and a redesign that allows maximum freedom of
                   movement and up-to-date visibility.
                 </p>
               </div>
-            </a>
-          </li>
-          <li class="product type-product product-data">
-            <a
-              href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
-              class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-            >
-              <img
-                loading="lazy"
-                width="500"
-                height="500"
-                src={boots}
-                class="attachment"
-                alt=""
-                decoding="async"
-                sizes="(max-width: 500px) 100vw, 500px"
-              />
+            </div>
+            <div class="product-item">
+              <a
+                href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
+                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
+              >
+                <img
+                  loading="lazy"
+                  width="500"
+                  height="500"
+                  src={boots}
+                  class="attachment"
+                  alt=""
+                  decoding="async"
+                  sizes="(max-width: 500px) 100vw, 500px"
+                />
+              </a>
               <div class="product-data">
-                <h2 class="woocommerce-loop-product__title">boots cover</h2>
+                <h2 class="product-title">boots cover</h2>
                 <p class="excerpt">
                   High-quality and durable fabric, insulated and pleasant to the
                   touch, provides perfect insulation from cold and moisture,
                   without being bulky and heavy.
                 </p>
               </div>
-            </a>
-          </li>
-        </ul>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="contact-bottom">
         <div class="back-to">
