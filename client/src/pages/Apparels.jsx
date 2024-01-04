@@ -30,10 +30,8 @@ export default function Apparels() {
               <div class="product-data">
                 <h2 class="woocommerce-loop-product__title">Dubon Coat</h2>
                 <p class="excerpt">
-                  Hagor’s new edition of the classic Dubon Coat. The filling is
-                  made from high quality hollowfiber material for heat
-                  isolation. The coat has two side pockets, an internal pocket,
-                  and a hood.
+                  Fabric : TC Fabric with W/R Padding: hollow fiber quilted Two
+                  side pocket and inside chest pocket
                 </p>
               </div>
             </a>
@@ -85,9 +83,9 @@ export default function Apparels() {
                   Buffalo Snowsuit
                 </h2>
                 <p class="excerpt">
-                  A classic Snowsuit made of extra strong fabric with high
-                  flexibility and a redesign that allows maximum freedom of
-                  movement and up-to-date visibility.
+                  High density oxford fabric with youli coating, All the seams
+                  are sealed. Wind proof, water proof. Hollow fiber padding Hood
+                  with fur,
                 </p>
               </div>
             </a>
@@ -112,9 +110,9 @@ export default function Apparels() {
                   Soldier softshell
                 </h2>
                 <p class="excerpt">
-                  High-quality and durable fabric, insulated and pleasant to the
-                  touch, provides perfect insulation from cold and moisture,
-                  without being bulky and heavy.
+                  High quality and durable fabric, insulated and pleasant to
+                  touch, Fabric compound with imitating fur, that makes light in
+                  weight but warm.
                 </p>
               </div>
             </a>

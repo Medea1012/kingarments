@@ -15,7 +15,7 @@ export default function Header() {
             <li className="hidden sm:inline text-white">Apparels</li>
           </Link>
           <Link to="/product/woven">
-            <li className="hidden sm:inline text-white">Woven</li>
+            <li className="hidden sm:inline text-white">Nonwovens</li>
           </Link>
           <Link to="/contact-us">
             <li className="hidden sm:inline text-white">Contact us</li>

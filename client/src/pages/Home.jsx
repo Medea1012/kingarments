@@ -80,7 +80,7 @@ export default function Home() {
             especially all kinds of work clothes, and the other is non-woven
             products, including non-woven protective clothing, medical
             disposable non-woven products, including isolation clothing,
-            protective clothing, surgical clothing Clothes.
+            protective clothing, surgical clothing.
           </p>
           <p className="mb-4">
             If you are interested in any of our products or would like to
@@ -133,7 +133,7 @@ export default function Home() {
               <li class="menu">
                 <Link to="/product/woven">
                   <HiMiniArrowUpRight />
-                  Woven
+                  Nonwovens
                 </Link>
               </li>
               <li class="menu">

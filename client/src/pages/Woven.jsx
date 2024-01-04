@@ -11,7 +11,7 @@ export default function Woven() {
     <section>
       <div class="common-main">
         <div class="contact-title">
-          <h2 class="title">Wovens</h2>
+          <h2 class="title">Nonwovens</h2>
         </div>
         <div class="video_item">
           <div class="video_wrap">
