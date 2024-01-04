@@ -53,6 +53,33 @@ export default function Apparels() {
               />
               <div class="product-data">
                 <h2 class="woocommerce-loop-product__title">
+                  BUFFALO SNOWSUIT
+                </h2>
+                <p class="excerpt">
+                  High density oxford fabric with youli coating, All the seams
+                  are sealed. Wind proof, water proof. Hollow fiber padding Hood
+                  with fur,
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="product type-product product-data">
+            <a
+              href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
+              class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
+            >
+              <img
+                loading="lazy"
+                width="500"
+                height="500"
+                src="https://hagor.co.il/wp-content/uploads/2020/11/kids5_flip.jpg"
+                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                alt=""
+                decoding="async"
+                sizes="(max-width: 500px) 100vw, 500px"
+              />
+              <div class="product-data">
+                <h2 class="woocommerce-loop-product__title">
                   Buffalo Snowsuit
                 </h2>
                 <p class="excerpt">
@@ -63,7 +90,7 @@ export default function Apparels() {
               </div>
             </a>
           </li>
-          <li class="product type-product product-data">
+          {/* <li class="product type-product product-data">
             <a
               href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
               class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
@@ -89,7 +116,7 @@ export default function Apparels() {
                 </p>
               </div>
             </a>
-          </li>
+          </li> */}
           <li class="product type-product product-data">
             <a
               href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
