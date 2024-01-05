@@ -60,6 +60,11 @@ li {
   padding-top: 2vw;
 }
 
+.squares {
+  background-color: rgb(239, 236, 239);
+  padding-bottom: 5%;
+}
+
 .home_wrap .wrap {
   max-width: 80%;
 }
