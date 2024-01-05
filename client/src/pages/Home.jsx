@@ -16,10 +16,7 @@ export default function Home() {
         <div class="wrap">
           <div class="squares_in">
             <div class="square">
-              <a
-                href="https://hagor.co.il/product-category/bags-and-backpacks/"
-                target="_self"
-              >
+              <a href="/product/apparels" target="_self">
                 <div class="square_im">
                   <img
                     class="image"
@@ -34,10 +31,7 @@ export default function Home() {
               </a>
             </div>
             <div class="square">
-              <a
-                href="https://hagor.co.il/product-category/bags-and-backpacks/"
-                target="_self"
-              >
+              <a href="/product/woven" target="_self">
                 <div class="square_im">
                   <img
                     class="image"
@@ -54,39 +48,59 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div class="introduce">
+        <div class="about-king">About WUHAN SWITCH CO LTD</div>
+        <div className="py-20 px-6 max-w-6xl mx-auto" class="company">
+          <img
+            src="https://img0.baidu.com/it/u=1568117388,941498682&fm=253&fmt=auto&app=138&f=JPEG?w=756&h=500"
+            alt=""
+            class="company-image"
+          />
+          <div class="company-profile">
+            <h1 className="text-3xl font-bold mb-4">Who we are</h1>
+            <p className="mb-4" class="int-text">
+              At WUHAN SWITCH CO LTD, we've been producing high-quality textiles
+              for over few years. Our journey began in a small workshop in
+              WuHan, where we started creating unique fabrics that stand out
+              from the rest. Since then, we've grown into a trusted brand that
+              is known for our craftsmanship and attention to detail.
+            </p>
+          </div>
+        </div>
+        <div className="py-20 px-6 max-w-6xl mx-auto" class="company">
+          <div class="company-profile text-reverse">
+            <h1 className="text-3xl font-bold mb-4">Our Process</h1>
+            <p className="mb-4" class="int-text">
+              Wuhan Switch Co., Ltd., founded in 2018 in Wuhan, central China,
+              has swiftly grown into a notable player in the import and export
+              industry, particularly in textiles and non-woven fabrics. Our
+              journey began with a modest annual revenue of $300,000, escalating
+              to an impressive $3 million by 2023. This growth is testament to
+              our dedicated team, strategic location, and robust industrial
+              foundation.
+            </p>
+          </div>
+          <img
+            src="https://img1.wsimg.com/isteam/stock/Dxxk4yB/:/cr=t:12.5%25,l:0%25,w:100%25,h:75%25/rs=w:1200,h:600,cg:true"
+            alt=""
+            class="company-image"
+          />
+        </div>
+      </div>
       <div className="py-20 px-6 max-w-6xl mx-auto" class="company">
         <img
-          src="https://img0.baidu.com/it/u=1568117388,941498682&fm=253&fmt=auto&app=138&f=JPEG?w=756&h=500"
+          src="https://img1.wsimg.com/isteam/stock/GpK8Kel/:/cr=t:12.37%25,l:0%25,w:100%25,h:75.27%25/rs=w:1200,h:600,cg:true"
           alt=""
           class="company-image"
         />
-
         <div class="company-profile">
-          <h1 className="text-3xl font-bold mb-4">WUHAN SWITCH CO LTD</h1>
-          <p className="mb-4">
-            WUHAN SWITCH CO LTD was established in 2018. It located in Wuhan,
-            Hubei Province, China. It is a professional foreign trade company
-            engaged in import and export. In the company's inaugural year, its
-            annual revenue was only $300,000. In 2023, the revenue reached 3
-            million dollars.The rapid development of the company benefited from
-            two aspects. First, we have an excellent team with abundant work
-            experience to provide customers with outstanding services. Second,
-            we have a strong textile and non-woven industrial base in Hubei
-            Province.
-          </p>
-          <p className="mb-4">
-            Wuhan, known as Oriental Chicago, has convenient transportation in
-            China.Our products are concentrated in two fields, one is clothing,
-            especially all kinds of work clothes, and the other is non-woven
-            products, including non-woven protective clothing, medical
-            disposable non-woven products, including isolation clothing,
-            protective clothing, surgical clothing.
-          </p>
-          <p className="mb-4">
-            If you are interested in any of our products or would like to
-            discuss a custom order, please feel free to contact us. We are
-            looking forward to forming successful business relationships with
-            new clients around the world in the near future.
+          <h1 className="text-3xl font-bold mb-4">Our Edge</h1>
+          <p className="mb-4" class="int-text">
+            At Wuhan Switch, innovation meets efficiency. We specialize in
+            diverse clothing lines, especially workwear, and a range of
+            non-woven fabric products including protective gear and medical
+            disposables. Our location in Wuhan, a hub with excellent transport
+            links, ensures prompt and reliable delivery.
           </p>
         </div>
       </div>
