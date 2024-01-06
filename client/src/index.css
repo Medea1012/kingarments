@@ -103,7 +103,7 @@ li {
 
 @media only screen and (max-width: 769px) {
   .square,
-  .video_item {
+  .video_item .video_des {
     width: 100%;
     height: 64vw;
     margin: 0px 0px 6vw !important;
@@ -701,8 +701,6 @@ ul,
     width: 100%;
     height: 100%;
     margin: 0 0 6vw !important;
-    display: flex;
-    flex-wrap: wrap;
   }
 }
 .video_item {

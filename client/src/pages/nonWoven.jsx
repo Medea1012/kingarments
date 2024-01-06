@@ -27,7 +27,7 @@ export default function Woven() {
                 loop
                 width="270px"
                 height="500px"
-                className="rounded-lg"
+                className="rounded-lg hidden sm:inline"
               >
                 <source src={base}></source>
               </video>
