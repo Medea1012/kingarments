@@ -104,6 +104,35 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <div className="py-20 px-6 max-w-6xl mx-auto" class="company">
+        <div class="company-profile">
+          <div class="first-par">
+            <h1 className="text-3xl font-bold mb-4">Who we serve</h1>
+            <p className="mb-4" class="int-text">
+              Our clientele ranges from global fashion brands to healthcare
+              providers, all seeking quality apparel and non-woven fabric
+              products.
+            </p>
+          </div>
+          <div class="second-par">
+            <h1 className="text-3xl font-bold mb-4">Why choose us</h1>
+            <p className="mb-4" class="int-text">
+              We're not just a company; we're a partner in your success. With
+              Wuhan Switch, you're choosing a blend of experienced
+              craftsmanship, cutting-edge technology, and unparalleled customer
+              service. Our commitment to quality and service has earned us
+              accolades and a loyal customer base. Testimonials from satisfied
+              clients speak to our exceptional standards and innovative
+              solutions.
+            </p>
+          </div>
+        </div>
+        <img
+          src="https://cbu01.alicdn.com/img/ibank/O1CN01BmRgRc1Bs2fjQpEpe_!!0-0-cib.jpg_Q75.jpg"
+          alt=""
+          class="company-image"
+        />
+      </div>
       <footer>
         <div class="botton-item contact-us-bottom">
           <div class="left-wrap">

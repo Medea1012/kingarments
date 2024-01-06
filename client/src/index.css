@@ -26,6 +26,7 @@ li {
 
 .about-king {
   padding-top: 10%;
+  padding-bottom: 10%;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
@@ -177,6 +178,10 @@ li {
     margin-top: 0.4vw;
     font-size: 3.2vw;
   }
+}
+
+.second-par {
+  padding-top: 5%;
 }
 
 .square_tx {
@@ -433,7 +438,7 @@ footer .switch {
 }
 .company {
   display: flex;
-  padding-top: 5%;
+  padding-top: 1%;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 10%;
@@ -443,12 +448,13 @@ footer .switch {
 .company-profile {
   display: flex;
   flex-direction: column;
-  padding-left: 5%;
+  padding-left: 6%;
   padding-top: 7%;
+  padding-right: 5%;
 }
 
 .company-image {
-  height: 300px;
+  height: 310px;
   border-radius: 10px;
   transition: all 3s;
 }
