@@ -121,9 +121,9 @@ export default function Apparels() {
             </Link>
           </div>
           <div class="back-link">
-            <Link to="/product/woven">
+            <Link to="/product/nonwoven">
               <RxDoubleArrowLeft />
-              Woven
+              nonWoven
             </Link>
           </div>
         </div>

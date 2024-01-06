@@ -175,7 +175,7 @@ export default function Home() {
                 </Link>
               </li>
               <li class="menu">
-                <Link to="/product/woven">
+                <Link to="/product/nonwoven">
                   <HiMiniArrowUpRight />
                   Nonwovens
                 </Link>
