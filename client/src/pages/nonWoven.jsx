@@ -13,11 +13,25 @@ export default function Woven() {
         <div class="contact-title">
           <h2 class="title">Nonwovens</h2>
         </div>
-        <div class="video_item">
-          <div class="video_wrap">
-            <video controls autoPlay muted loop width="270px" height="500px">
-              <source src={base}></source>
-            </video>
+        <div class="video_des">
+          <div class="video_introduce">
+            This is our medical non-woven production base, fully enclosed, with
+            100,000 dust-free workshops to ensure product quality.
+          </div>
+          <div class="video_item">
+            <div class="video_wrap">
+              <video
+                controls
+                autoPlay
+                muted
+                loop
+                width="270px"
+                height="500px"
+                className="rounded-lg"
+              >
+                <source src={base}></source>
+              </video>
+            </div>
           </div>
         </div>
         <div class="page-container">
@@ -65,7 +79,7 @@ export default function Woven() {
                 />
               </a>
               <div class="product-data">
-                <h2 class="product-title">Woven</h2>
+                <h2 class="product-title">nonWoven</h2>
                 <p class="excerpt">
                   A classic Snowsuit made of extra strong fabric with high
                   flexibility and a redesign that allows maximum freedom of
@@ -125,7 +139,6 @@ export default function Woven() {
             </div>
           </div>
         </div>
-        
       </div>
       <div class="contact-bottom">
         <div class="back-to">

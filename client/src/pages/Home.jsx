@@ -31,7 +31,7 @@ export default function Home() {
               </a>
             </div>
             <div class="square">
-              <a href="/product/woven" target="_self">
+              <a href="/product/nonwoven" target="_self">
                 <div class="square_im">
                   <img
                     class="image"
@@ -133,6 +133,7 @@ export default function Home() {
           class="company-image"
         />
       </div>
+
       <footer>
         <div class="botton-item contact-us-bottom">
           <div class="left-wrap">
