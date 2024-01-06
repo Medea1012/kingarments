@@ -697,10 +697,12 @@ ul,
 }
 
 @media only screen and (max-width: 769px) {
-  .video_item {
+  .video_item .video_des .video_des {
     width: 100%;
     height: 100%;
     margin: 0 0 6vw !important;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 .video_item {
@@ -720,12 +722,12 @@ ul,
 }
 
 .video_wrap {
-  /* margin: 0; */
-  /* padding: 0; */
-  /* border: 0; */
-  /* font-size: 100%; */
-  /* font: inherit; */
-  /* vertical-align: baseline; */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
   height: 1000px;
   width: 1000px;
 }
