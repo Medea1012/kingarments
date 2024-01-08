@@ -8,11 +8,23 @@ import { FaLinkedin } from "react-icons/fa";
 import { AiFillAliwangwang } from "react-icons/ai";
 import { BsTelephoneOutboundFill } from "react-icons/bs";
 import QRCode from "../assets/QRCode.jpg";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import ElectricGloves from "../assets/Electric gloves.jpg";
 import Golves from "../assets/gloves.jpg";
 
 export default function Home() {
   const data = [ElectricGloves, Golves];
+  const settings = {
+    dots: true,
+    speed: 1700,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+  };
   return (
     <div class="page_wrap home_wrap">
       <section class="squares" id="squares">
@@ -140,6 +152,15 @@ export default function Home() {
         <p className="text-center text-2xl font-bold">
           Exploration of Our Products
         </p>
+        <Slider {...settings}>
+          {data.map((d) => (
+            <div>
+              <div className="bg-white flex justify-center items-center">
+                <img src={d} alt="" className="rounded-lg h-48 w-45" />
+              </div>
+            </div>
+          ))}
+        </Slider>
       </div>
       <footer>
         <div class="botton-item contact-us-bottom">

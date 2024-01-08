@@ -786,3 +786,7 @@ ul,
 .common-main {
   background-color: #ececed;
 }
+
+.slick-slide > div {
+  border: 1px solid #dcdbdb;
+}
