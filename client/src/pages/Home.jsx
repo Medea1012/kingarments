@@ -27,9 +27,9 @@ export default function Home() {
       review: "Gloves",
     },
     {
-      name: "Musk",
+      name: "NonWoven",
       img: "https://www.smsnonwoven.com/repository/image/38ee5015-89bb-4509-946b-ef4645db90d8.jpg",
-      review: "Musk",
+      review: "NonWoven",
     },
     {
       name: "Buffalo Snowsuit",
