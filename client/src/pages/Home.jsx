@@ -46,6 +46,16 @@ export default function Home() {
       img: "https://hagor.com/wp-content/uploads/2022/10/softshells_0004_man-softshell2-1.jpg",
       review: "Snowsuit",
     },
+    {
+      name: "Boots cover",
+      img: "https://image.made-in-china.com/202f0j00QjTGcwdIEibs/Waterproof-Boot-Cover-with-Ties-Belt.jpg",
+      review: "Boots cover",
+    },
+    {
+      name: "Surgery suits",
+      img: "https://honwaymed.files.wordpress.com/2022/10/surgeons-wearing-hospital-scrubs.jpg?w=612",
+      review: "Surgery suits",
+    },
   ];
   const settings = {
     dots: true,
