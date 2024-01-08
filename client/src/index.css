@@ -794,3 +794,11 @@ ul,
   width: 330px;
   margin: 0 0 10px 10px;
 }
+
+.slide-show {
+  padding-bottom: 2%;
+}
+
+.contact-message {
+  background-color: rgb(242, 242, 242);
+}

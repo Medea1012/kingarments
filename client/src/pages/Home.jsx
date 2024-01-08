@@ -189,7 +189,7 @@ export default function Home() {
           class="company-image"
         />
       </div>
-      <div>
+      <div class="slide-show">
         <p className="text-center text-2xl font-bold">
           Exploration of Our Products
         </p>
@@ -197,7 +197,7 @@ export default function Home() {
           <Slider {...settings}>
             {data.map((d) => (
               <div>
-                <div className="flex justify-center items-center flex-col">
+                <div className="flex flex-col justify-center items-center">
                   <img
                     src={d.img}
                     alt=""
@@ -210,6 +210,9 @@ export default function Home() {
             ))}
           </Slider>
         </div>
+      </div>
+      <div class="contact-message">
+        <p className="text-center text-2xl font-bold p-3">Drop us a line!</p>
       </div>
       <footer>
         <div class="botton-item contact-us-bottom">
