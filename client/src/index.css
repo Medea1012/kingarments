@@ -788,5 +788,6 @@ ul,
 }
 
 .slick-slide > div {
-  border: 1px solid #dcdbdb;
+  border: 4px solid #dcdbdb;
+  margin: 0 600px;
 }
