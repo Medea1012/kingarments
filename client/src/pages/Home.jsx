@@ -19,28 +19,38 @@ export default function Home() {
     {
       name: "Electric Gloves",
       img: ElectricGloves,
-      review: "gloves",
+      review: "Electric Glove",
     },
     {
       name: "Gloves",
       img: Golves,
-      review: "gloves",
+      review: "Gloves",
     },
     {
       name: "Musk",
       img: "https://www.smsnonwoven.com/repository/image/38ee5015-89bb-4509-946b-ef4645db90d8.jpg",
-      review: "musk",
+      review: "Musk",
     },
     {
       name: "Buffalo Snowsuit",
       img: "https://hagor.com/wp-content/uploads/2022/06/bofalo_flip.jpg",
       review: "Buffalo Snowsuit",
     },
+    {
+      name: "Soft-Shell Jacket",
+      img: "https://hagor.com/wp-content/uploads/2022/10/softShell_0003_7290116122892_3.jpg",
+      review: "Soft-Shell Jacket",
+    },
+    {
+      name: "Snowsuit",
+      img: "https://hagor.com/wp-content/uploads/2022/10/softshells_0004_man-softshell2-1.jpg",
+      review: "Snowsuit",
+    },
   ];
   const settings = {
     dots: true,
     speed: 1700,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     infinite: true,
     autoplay: true,
@@ -173,21 +183,23 @@ export default function Home() {
         <p className="text-center text-2xl font-bold">
           Exploration of Our Products
         </p>
-        <Slider {...settings}>
-          {data.map((d) => (
-            <div>
-              <div className="bg-white flex justify-center items-center flex-col">
-                <img
-                  src={d.img}
-                  alt=""
-                  className="rounded-lg"
-                  class="slide-img"
-                />
-                <p>{d.review}</p>
+        <div className="p-3">
+          <Slider {...settings}>
+            {data.map((d) => (
+              <div>
+                <div className="flex justify-center items-center flex-col">
+                  <img
+                    src={d.img}
+                    alt=""
+                    className="rounded-lg"
+                    class="slide-img"
+                  />
+                  <p>{d.review}</p>
+                </div>
               </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </div>
       <footer>
         <div class="botton-item contact-us-bottom">
