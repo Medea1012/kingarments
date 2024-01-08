@@ -8,8 +8,11 @@ import { FaLinkedin } from "react-icons/fa";
 import { AiFillAliwangwang } from "react-icons/ai";
 import { BsTelephoneOutboundFill } from "react-icons/bs";
 import QRCode from "../assets/QRCode.jpg";
+import ElectricGloves from "../assets/Electric gloves.jpg";
+import Golves from "../assets/gloves.jpg";
 
 export default function Home() {
+  const data = [ElectricGloves, Golves];
   return (
     <div class="page_wrap home_wrap">
       <section class="squares" id="squares">
@@ -133,7 +136,11 @@ export default function Home() {
           class="company-image"
         />
       </div>
-
+      <div>
+        <p className="text-center text-2xl font-bold">
+          Exploration of Our Products
+        </p>
+      </div>
       <footer>
         <div class="botton-item contact-us-bottom">
           <div class="left-wrap">
