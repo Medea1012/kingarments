@@ -15,7 +15,28 @@ import ElectricGloves from "../assets/Electric gloves.jpg";
 import Golves from "../assets/gloves.jpg";
 
 export default function Home() {
-  const data = [ElectricGloves, Golves];
+  const data = [
+    {
+      name: "Electric Gloves",
+      img: ElectricGloves,
+      review: "gloves",
+    },
+    {
+      name: "Gloves",
+      img: Golves,
+      review: "gloves",
+    },
+    {
+      name: "Musk",
+      img: "https://www.smsnonwoven.com/repository/image/38ee5015-89bb-4509-946b-ef4645db90d8.jpg",
+      review: "musk",
+    },
+    {
+      name: "Buffalo Snowsuit",
+      img: "https://hagor.com/wp-content/uploads/2022/06/bofalo_flip.jpg",
+      review: "Buffalo Snowsuit",
+    },
+  ];
   const settings = {
     dots: true,
     speed: 1700,
@@ -155,8 +176,14 @@ export default function Home() {
         <Slider {...settings}>
           {data.map((d) => (
             <div>
-              <div className="bg-white flex justify-center items-center">
-                <img src={d} alt="" className="rounded-lg h-48 w-45" />
+              <div className="bg-white flex justify-center items-center flex-col">
+                <img
+                  src={d.img}
+                  alt=""
+                  className="rounded-lg"
+                  class="slide-img"
+                />
+                <p>{d.review}</p>
               </div>
             </div>
           ))}
