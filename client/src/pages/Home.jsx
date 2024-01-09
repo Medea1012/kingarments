@@ -222,18 +222,18 @@ export default function Home() {
           <form class="message-form">
             <input
               type="text"
-              placeholder="Name:*"
+              placeholder="  Name:*"
               class="message-item message-text"
             ></input>
             <input
               type="text"
-              placeholder="Email:*"
+              placeholder="  Email:*"
               class="message-item message-text"
             ></input>
             <textarea
               rows="10"
               cols="30"
-              placeholder="Leave your message:*"
+              placeholder="  Leave your message:*"
               class="message-item message-box"
             ></textarea>
             <button class="send-button">SEND</button>
