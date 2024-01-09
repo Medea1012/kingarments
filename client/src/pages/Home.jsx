@@ -230,6 +230,7 @@ export default function Home() {
             placeholder="Leave your message:*"
             class="message-item message-box"
           ></textarea>
+          <button class="send-button">SEND</button>
         </form>
       </div>
       <footer>
