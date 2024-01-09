@@ -15,8 +15,8 @@ export default function Woven() {
         </div>
         <div class="video_des">
           <div class="video_introduce">
-            This is our medical non-woven production base, fully enclosed, with
-            100,000 dust-free workshops to ensure product quality.
+            This is our medical non-woven production facility, fully enclosed,
+            with 100,000 dust-free workshops to ensure product quality.
           </div>
           <div class="video_item">
             <div class="video_wrap">
