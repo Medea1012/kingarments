@@ -832,8 +832,9 @@ ul,
 }
 
 @media (max-width: 768px) {
-  .send-button {
-    margin-right: 50%;
+  .message-item {
+    height: 90%;
+    width: 90%;
   }
 }
 
