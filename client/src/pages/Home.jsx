@@ -212,28 +212,33 @@ export default function Home() {
         </div>
       </div>
       <div class="contact-message">
-        <p class="drop-message" className="text-center text-2xl font-bold p-5">
-          Drop us a line!
-        </p>
-        <form class="message-form">
-          <input
-            type="text"
-            placeholder="Name:*"
-            class="message-item message-text"
-          ></input>
-          <input
-            type="text"
-            placeholder="Email:*"
-            class="message-item message-text"
-          ></input>
-          <textarea
-            rows="10"
-            cols="30"
-            placeholder="Leave your message:*"
-            class="message-item message-box"
-          ></textarea>
-          <button class="send-button">SEND</button>
-        </form>
+        <div class="contact-total">
+          <p
+            class="drop-message"
+            className="text-center text-2xl font-bold p-5"
+          >
+            Drop us a line!
+          </p>
+          <form class="message-form">
+            <input
+              type="text"
+              placeholder="Name:*"
+              class="message-item message-text"
+            ></input>
+            <input
+              type="text"
+              placeholder="Email:*"
+              class="message-item message-text"
+            ></input>
+            <textarea
+              rows="10"
+              cols="30"
+              placeholder="Leave your message:*"
+              class="message-item message-box"
+            ></textarea>
+            <button class="send-button">SEND</button>
+          </form>
+        </div>
       </div>
       <footer>
         <div class="botton-item contact-us-bottom">

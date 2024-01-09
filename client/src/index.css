@@ -803,6 +803,13 @@ ul,
   background-color: rgb(242, 242, 242);
 }
 
+.contact-total {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .message-form {
   display: flex;
   flex-direction: column;
@@ -822,6 +829,12 @@ ul,
 
 .message-box {
   width: 700px;
+}
+
+@media (max-width: 768px) {
+  .send-button {
+    margin-right: 50%;
+  }
 }
 
 .send-button {
