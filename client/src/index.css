@@ -82,7 +82,7 @@ li {
   margin: 0px auto;
 }
 
-@media only screen and (max-width: 769px) {
+@media (max-width: 769px) {
   .squares_in,
   .video_items {
     flex-direction: column;
@@ -809,13 +809,6 @@ ul,
   align-items: center;
 }
 
-@media only screen and (max-width: 769px) {
-  .message-form {
-    max-width: 30% !important;
-    padding: 0px 25px !important;
-  }
-}
-
 .message-item {
   margin: 3px 2% 3% 5%;
   border-radius: 10px;
@@ -828,4 +821,18 @@ ul,
 
 .message-box {
   width: 700px;
+}
+
+.send-button {
+  color: rgb(55, 54, 54);
+  background-color: #f37787;
+  font-weight: bold;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.send-button:hover {
+  background-color: #f598a4;
 }

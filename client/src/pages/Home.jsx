@@ -212,7 +212,9 @@ export default function Home() {
         </div>
       </div>
       <div class="contact-message">
-        <p className="text-center text-2xl font-bold p-5">Drop us a line!</p>
+        <p class="drop-message" className="text-center text-2xl font-bold p-5">
+          Drop us a line!
+        </p>
         <form class="message-form">
           <input
             type="text"
@@ -265,7 +267,6 @@ export default function Home() {
           </div>
           <div class="foot-item foot-quick">
             <p class="foot-title">Navigation</p>
-
             <ul class="foot-list">
               <li class="menu">
                 <Link to="/product/apparels">
