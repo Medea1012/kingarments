@@ -787,6 +787,13 @@ ul,
   background-color: #ececed;
 }
 
+@media (max-width: 768px) {
+  .slide-img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 .slide-img {
   border: 3px solid #dcdbdb;
   border-radius: 10px;
