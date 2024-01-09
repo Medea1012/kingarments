@@ -802,3 +802,23 @@ ul,
 .contact-message {
   background-color: rgb(242, 242, 242);
 }
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-item {
+  margin: 3px 2% 3% 5%;
+  border-radius: 10px;
+}
+
+.message-text {
+  height: 50px;
+  width: 700px;
+}
+
+.message-box {
+  width: 700px;
+}
