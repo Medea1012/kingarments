@@ -37,21 +37,16 @@ export default function Woven() {
         <div class="page-container">
           <div class="product-list">
             <div class="product-item">
-              <a
-                href="https://hagor.co.il/product-category/soldiers/"
-                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-              >
-                <img
-                  fetchpriority="high"
-                  width="400"
-                  height="400"
-                  src={surgery}
-                  class="attachment"
-                  alt=""
-                  decoding="async"
-                  sizes="(max-width: 500px) 100vw, 500px"
-                />
-              </a>
+              <img
+                fetchpriority="high"
+                width="400"
+                height="400"
+                src={surgery}
+                class="attachment"
+                alt=""
+                decoding="async"
+                sizes="(max-width: 500px) 100vw, 500px"
+              />
               <div class="product-data">
                 <h2 class="product-title">Surgery suits</h2>
                 <p class="excerpt">
@@ -63,21 +58,16 @@ export default function Woven() {
               </div>
             </div>
             <div class="product-item">
-              <a
-                href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
-                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-              >
-                <img
-                  loading="lazy"
-                  width="500"
-                  height="500"
-                  src={woven}
-                  class="attachment"
-                  alt=""
-                  decoding="async"
-                  sizes="(max-width: 500px) 100vw, 500px"
-                />
-              </a>
+              <img
+                loading="lazy"
+                width="500"
+                height="500"
+                src={woven}
+                class="attachment"
+                alt=""
+                decoding="async"
+                sizes="(max-width: 500px) 100vw, 500px"
+              />
               <div class="product-data">
                 <h2 class="product-title">nonWoven</h2>
                 <p class="excerpt">
@@ -88,21 +78,16 @@ export default function Woven() {
               </div>
             </div>
             <div class="product-item">
-              <a
-                href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
-                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-              >
-                <img
-                  loading="lazy"
-                  width="500"
-                  height="500"
-                  src={bouffant}
-                  class="attachment"
-                  alt=""
-                  decoding="async"
-                  sizes="(max-width: 500px) 100vw, 500px"
-                />
-              </a>
+              <img
+                loading="lazy"
+                width="500"
+                height="500"
+                src={bouffant}
+                class="attachment"
+                alt=""
+                decoding="async"
+                sizes="(max-width: 500px) 100vw, 500px"
+              />
               <div class="product-data">
                 <h2 class="product-title">bouffant cap and mask</h2>
                 <p class="excerpt">
@@ -113,21 +98,15 @@ export default function Woven() {
               </div>
             </div>
             <div class="product-item">
-              <a
-                href="https://hagor.co.il/shop/soldiers/%d7%9b%d7%9c%d7%9c%d7%99-soldiers/%d7%a9%d7%a7-%d7%9b%d7%91%d7%99%d7%a1%d7%94/"
-                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-              >
-                <img
-                  loading="lazy"
-                  width="500"
-                  height="500"
-                  src={boots}
-                  class="attachment"
-                  alt=""
-                  decoding="async"
-                  sizes="(max-width: 500px) 100vw, 500px"
-                />
-              </a>
+              <img
+                loading="lazy"
+                width="500"
+                height="500"
+                src={boots}
+                class="attachment"
+                alt=""
+                decoding="async"
+              />
               <div class="product-data">
                 <h2 class="product-title">boots cover</h2>
                 <p class="excerpt">

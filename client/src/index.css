@@ -681,6 +681,10 @@ ul,
   z-index: 10;
 }
 
+.product-data {
+  align-items: center;
+}
+
 .back-link {
   padding-top: 7%;
 }
@@ -769,6 +773,15 @@ ul,
   position: relative;
   margin-right: 2%;
   border: 1px solid #eee;
+}
+
+.product-item {
+  padding-top: 5%;
+  justify-content: space-between;
+}
+
+.attachment {
+  border-radius: 5px;
 }
 
 .product-item {
