@@ -72,7 +72,7 @@ export default function Home() {
         <div class="wrap">
           <div class="squares_in">
             <div class="square">
-              <a href="/product/apparels" target="_self">
+              <Link to="/product/apparels">
                 <div class="square_im">
                   <img
                     class="image"
@@ -84,10 +84,10 @@ export default function Home() {
                   <h3 class="square_title">Apparels</h3>
                   <div class="square_tx"></div>
                 </div>
-              </a>
+              </Link>
             </div>
             <div class="square">
-              <a href="/product/nonwoven" target="_self">
+              <Link to="/product/nonwoven">
                 <div class="square_im">
                   <img
                     class="image"
@@ -99,7 +99,7 @@ export default function Home() {
                   <h3 class="square_title">Non woven products</h3>
                   <div class="square_tx"></div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
