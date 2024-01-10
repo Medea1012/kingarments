@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { RxDoubleArrowLeft } from "react-icons/rx";
+import gloves from "../assets/gloves5.jpg";
 
 export default function Apparels() {
   return (
@@ -85,6 +86,28 @@ export default function Apparels() {
                   High quality and durable fabric, insulated and pleasant to
                   touch, Fabric compound with imitating fur, that makes light in
                   weight but warm.
+                </p>
+              </div>
+            </div>
+            <div class="product-item">
+              <img
+                loading="lazy"
+                width="500"
+                height="500"
+                src={gloves}
+                class="attachment"
+                alt=""
+                decoding="async"
+                sizes="(max-width: 500px) 100vw, 500px"
+              />
+              <div class="product-data">
+                <h2 class="product-title">Golves</h2>
+                <p class="excerpt">
+                  The gloves are designed to have a perfect second-skin fit.
+                  Comfortable and warming while provide maximal flexibility.
+                  Wearing the gloves allows maximum dexterity during any
+                  activity or use of devices. Perfect for use in cold
+                  conditions.
                 </p>
               </div>
             </div>
