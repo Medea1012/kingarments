@@ -37,6 +37,7 @@ export default function Home() {
       review: "Buffalo Snowsuit",
     },
     {
+      id: 5,
       name: "Soft-Shell Jacket",
       img: "https://hagor.com/wp-content/uploads/2022/10/softShell_0003_7290116122892_3.jpg",
       review: "Soft-Shell Jacket",
@@ -67,54 +68,54 @@ export default function Home() {
     autoplaySpeed: 1500,
   };
   return (
-    <div class="page_wrap home_wrap">
-      <section class="squares" id="squares">
-        <div class="wrap">
-          <div class="squares_in">
-            <div class="square">
+    <div className="page_wrap home_wrap">
+      <section className="squares" id="squares">
+        <div className="wrap">
+          <div className="squares_in">
+            <div className="square">
               <Link to="/product/apparels">
-                <div class="square_im">
+                <div className="square_im">
                   <img
-                    class="image"
+                    className="image"
                     src="https://res.cloudinary.com/doaazgsrk/image/upload/v1593536301/Beige/title_nbetk7.jpg"
                     alt=""
                   />
                 </div>
-                <div class="square_content">
-                  <h3 class="square_title">Apparels</h3>
-                  <div class="square_tx"></div>
+                <div className="square_content">
+                  <h3 className="square_title">Apparels</h3>
+                  <div className="square_tx"></div>
                 </div>
               </Link>
             </div>
-            <div class="square">
+            <div className="square">
               <Link to="/product/nonwoven">
-                <div class="square_im">
+                <div className="square_im">
                   <img
-                    class="image"
+                    className="image"
                     src="https://www.crodaindustrialspecialties.com/mediaassets/images/industrial-chemicals/products-and-applications/nonwoven2.jpg?w=1920&la=en-GB&focalpointcrop=1&xratio=0&yratio=0&hash=A99CDD804A6829E8187BA6D8C7E7A3B1"
                     alt=""
                   />
                 </div>
-                <div class="square_content">
-                  <h3 class="square_title">Non woven products</h3>
-                  <div class="square_tx"></div>
+                <div className="square_content">
+                  <h3 className="square_title">Non woven products</h3>
+                  <div className="square_tx"></div>
                 </div>
               </Link>
             </div>
           </div>
         </div>
       </section>
-      <div class="introduce">
-        <div class="about-king">About WUHAN SWITCH CO LTD</div>
-        <div className="py-20 px-6 max-w-6xl mx-auto" class="company">
+      <div className="introduce">
+        <div className="about-king">About WUHAN SWITCH CO LTD</div>
+        <div className="py-20 px-6 max-w-6xl mx-auto company">
           <img
             src="https://img0.baidu.com/it/u=1568117388,941498682&fm=253&fmt=auto&app=138&f=JPEG?w=756&h=500"
             alt=""
-            class="company-image"
+            className="company-image"
           />
-          <div class="company-profile">
+          <div className="company-profile">
             <h1 className="text-3xl font-bold mb-4">Who we are</h1>
-            <p className="mb-4" class="int-text">
+            <p className="mb-4 int-text">
               At WUHAN SWITCH CO LTD, we've been producing high-quality textiles
               for over few years. Our journey began in a small workshop in
               WuHan, where we started creating unique fabrics that stand out
@@ -123,10 +124,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="py-20 px-6 max-w-6xl mx-auto" class="company">
-          <div class="company-profile text-reverse">
+        <div className="py-20 px-6 max-w-6xl mx-auto company">
+          <div className="company-profile text-reverse">
             <h1 className="text-3xl font-bold mb-4">Our Process</h1>
-            <p className="mb-4" class="int-text">
+            <p className="mb-4 int-text">
               Wuhan Switch Co., Ltd., founded in 2018 in Wuhan, central China,
               has swiftly grown into a notable player in the import and export
               industry, particularly in textiles and non-woven fabrics. Our
@@ -139,19 +140,19 @@ export default function Home() {
           <img
             src="https://img1.wsimg.com/isteam/stock/Dxxk4yB/:/cr=t:12.5%25,l:0%25,w:100%25,h:75%25/rs=w:1200,h:600,cg:true"
             alt=""
-            class="company-image"
+            className="company-image"
           />
         </div>
       </div>
-      <div className="py-20 px-6 max-w-6xl mx-auto" class="company">
+      <div className="py-20 px-6 max-w-6xl mx-auto company">
         <img
           src="https://img1.wsimg.com/isteam/stock/GpK8Kel/:/cr=t:12.37%25,l:0%25,w:100%25,h:75.27%25/rs=w:1200,h:600,cg:true"
           alt=""
-          class="company-image"
+          className="company-image"
         />
-        <div class="company-profile">
+        <div className="company-profile">
           <h1 className="text-3xl font-bold mb-4">Our Edge</h1>
-          <p className="mb-4" class="int-text">
+          <p className="mb-4 int-text">
             At Wuhan Switch, innovation meets efficiency. We specialize in
             diverse clothing lines, especially workwear, and a range of
             non-woven fabric products including protective gear and medical
@@ -160,19 +161,19 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="py-20 px-6 max-w-6xl mx-auto" class="company">
-        <div class="company-profile">
-          <div class="first-par">
+      <div className="py-20 px-6 max-w-6xl mx-auto company">
+        <div className="company-profile">
+          <div className="first-par">
             <h1 className="text-3xl font-bold mb-4">Who we serve</h1>
-            <p className="mb-4" class="int-text">
+            <p className="mb-4 int-text">
               Our clientele ranges from global fashion brands to healthcare
               providers, all seeking quality apparel and non-woven fabric
               products.
             </p>
           </div>
-          <div class="second-par">
+          <div className="second-par">
             <h1 className="text-3xl font-bold mb-4">Why choose us</h1>
-            <p className="mb-4" class="int-text">
+            <p className="mb-4 int-text">
               We're not just a company; we're a partner in your success. With
               Wuhan Switch, you're choosing a blend of experienced
               craftsmanship, cutting-edge technology, and unparalleled customer
@@ -186,24 +187,19 @@ export default function Home() {
         <img
           src="https://cbu01.alicdn.com/img/ibank/O1CN01BmRgRc1Bs2fjQpEpe_!!0-0-cib.jpg_Q75.jpg"
           alt=""
-          class="company-image"
+          className="company-image"
         />
       </div>
-      <div class="slide-show">
+      <div className="slide-show">
         <p className="text-center text-2xl font-bold">
           Exploration of Our Products
         </p>
         <div className="p-3">
           <Slider {...settings}>
-            {data.map((d) => (
-              <div>
+            {data.map((d, i) => (
+              <div key={i}>
                 <div className="flex flex-col justify-center items-center">
-                  <img
-                    src={d.img}
-                    alt=""
-                    className="rounded-lg"
-                    class="slide-img"
-                  />
+                  <img src={d.img} alt="" className="rounded-lg slide-img" />
                   <p>{d.review}</p>
                 </div>
               </div>
@@ -211,41 +207,38 @@ export default function Home() {
           </Slider>
         </div>
       </div>
-      <div class="contact-message">
-        <div class="contact-total">
-          <p
-            class="drop-message"
-            className="text-center text-2xl font-bold p-5"
-          >
+      <div className="contact-message">
+        <div className="contact-total">
+          <p className="drop-message text-center text-2xl font-bold p-5">
             Drop us a line!
           </p>
-          <form class="message-form">
+          <form className="message-form">
             <input
               type="text"
-              placeholder="  Name:*"
-              class="message-item message-text"
+              placeholder="Name:*"
+              className="message-item message-text"
             ></input>
             <input
               type="text"
-              placeholder="  Email:*"
-              class="message-item message-text"
+              placeholder="Email:*"
+              className="message-item message-text"
             ></input>
             <textarea
               rows="10"
               cols="30"
-              placeholder="  Leave your message:*"
-              class="message-item message-box"
+              placeholder="Leave your message:*"
+              className="message-item message-box"
             ></textarea>
-            <button class="send-button">SEND</button>
+            <button className="send-button">SEND</button>
           </form>
         </div>
       </div>
       <footer>
-        <div class="botton-item contact-us-bottom">
-          <div class="left-wrap">
-            <div class="foot-item foot-info">
-              <p class="foot-title foot-code">QR Code</p>
-              <div class="foot-qrimg">
+        <div className="botton-item contact-us-bottom">
+          <div className="left-wrap">
+            <div className="foot-item foot-info">
+              <p className="foot-title foot-code">QR Code</p>
+              <div className="foot-qrimg">
                 <img
                   src={QRCode}
                   width="180"
@@ -253,7 +246,7 @@ export default function Home() {
                   loading="lazy"
                   alt="QR Code"
                 />
-                <div class="symbol">
+                <div className="symbol">
                   <a href="mailto:13396070228@vip.163.com" target="_blank">
                     <MdOutlineAttachEmail size="1.5vw" />
                   </a>
@@ -270,22 +263,22 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="foot-item foot-quick">
-            <p class="foot-title">Navigation</p>
-            <ul class="foot-list">
-              <li class="menu">
+          <div className="foot-item foot-quick">
+            <p className="foot-title">Navigation</p>
+            <ul className="foot-list">
+              <li className="menu">
                 <Link to="/product/apparels">
                   <HiMiniArrowUpRight />
                   Apparels
                 </Link>
               </li>
-              <li class="menu">
+              <li className="menu">
                 <Link to="/product/nonwoven">
                   <HiMiniArrowUpRight />
                   Nonwovens
                 </Link>
               </li>
-              <li class="menu">
+              <li className="menu">
                 <Link to="/contact-us">
                   <HiMiniArrowUpRight />
                   Contact us
@@ -293,42 +286,42 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <div class="foot-item foot-contact" className="hidden sm:inline">
-            <p class="foot-title">Contact us</p>
-            <div class="foot-tel">
-              <div class="tel-icon">
+          <div className="foot-item foot-contact hidden sm:inline">
+            <p className="foot-title">Contact us</p>
+            <div className="foot-tel">
+              <div className="tel-icon">
                 <BsTelephoneFill color="red" size="2vw" />
-                <p class="tel-text">Call us on</p>
+                <p className="tel-text">Call us on</p>
               </div>
-              <a href="tel:+86 13396070228" class="tel-num">
+              <a href="tel:+86 13396070228" className="tel-num">
                 +86-13396070228
               </a>
             </div>
-            <div class="item">
-              <div class="email-icon">
+            <div className="item">
+              <div className="email-icon">
                 <MdEmail size="1vw" />
-                <p class="email-text">Email:</p>
+                <p className="email-text">Email:</p>
               </div>
               <a
                 href="mailto:13396070228@vip.163.com"
                 target="_blank"
-                class="tel-num"
+                className="tel-num"
               >
                 13396070228@vip.163.com
               </a>
             </div>
-            <div class="item">
-              <div class="fax-icon">
+            <div className="item">
+              <div className="fax-icon">
                 <FaLocationArrow size="1vw" />
-                <p class="fax-text">Fax:</p>
+                <p className="fax-text">Fax:</p>
               </div>
-              <a href="tel:+86 27-87669028" class="tel-num">
+              <a href="tel:+86 27-87669028" className="tel-num">
                 86-27-87669028
               </a>
             </div>
           </div>
         </div>
-        <div class="switch">
+        <div className="switch">
           <p>Kingarments © WUHAN SWITCH CO LTD. All Rights Reserved.</p>
         </div>
       </footer>

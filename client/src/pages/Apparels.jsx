@@ -5,7 +5,7 @@ import gloves from "../assets/gloves5.jpg";
 export default function Apparels() {
   return (
     <section>
-      <div class="common-main">
+      <div className="common-main">
         <div class="contact-title">
           <h2 class="title">Apparels</h2>
         </div>
