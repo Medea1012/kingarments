@@ -839,6 +839,7 @@ ul,
 
 .message-item {
   margin: 3px 2% 3% 5%;
+  padding-left: 10px;
   border-radius: 10px;
 }
 
