@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 import { BsTelephoneFill } from "react-icons/bs";
@@ -66,6 +67,53 @@ export default function Home() {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 1500,
+  };
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [uploading, setUpLoading] = useState(false);
+
+  const handleChange = (e) => {
+    if (e.target.id == "name") {
+      setFormData({
+        ...formData,
+        name: e.target.value,
+      });
+    }
+    if (e.target.id == "email") {
+      setFormData({
+        ...formData,
+        email: e.target.value,
+      });
+    }
+    if (e.target.id == "message") {
+      setFormData({
+        ...formData,
+        message: e.target.value,
+      });
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setUpLoading(true);
+    fetch("http://localhost:3000/", {
+      method: "POST",
+      "Content-Type": "application/json",
+      body: JSON.stringify(formData),
+    })
+      .then((body) => {
+        console.log(body);
+        setUpLoading(false);
+      })
+      .catch((error) => {
+        console.log(error);
+        setUpLoading(false);
+      });
   };
   return (
     <div className="page_wrap home_wrap">
@@ -217,19 +265,32 @@ export default function Home() {
               type="text"
               placeholder="Name:*"
               className="message-item message-text"
+              onChange={handleChange}
+              id="name"
             ></input>
             <input
               type="text"
               placeholder="Email:*"
               className="message-item message-text"
+              onChange={handleChange}
+              id="email"
             ></input>
             <textarea
               rows="10"
               cols="30"
               placeholder="Leave your message:*"
               className="message-item message-box"
+              onChange={handleChange}
+              id="message"
             ></textarea>
-            <button className="send-button">SEND</button>
+            <button
+              type="button"
+              disabled={uploading}
+              onClick={handleSubmit}
+              className="send-button"
+            >
+              {uploading ? "Uploading " : "SEND"}
+            </button>
           </form>
         </div>
       </div>
